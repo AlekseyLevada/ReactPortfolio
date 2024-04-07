@@ -1,5 +1,8 @@
 ._customer-about-page {
-  background: url(../../../img/about_bg.jpg) no-repeat center/cover;
+  background: url(../../../img/about_bg.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   min-height: 100vh;
   background-attachment: fixed;
@@ -43,6 +46,12 @@
   text-decoration: none;
 }
 
+._customer-about-page__container {
+  max-width: 1300px;
+  padding: 30px 10px 30px;
+  margin: 0 auto;
+}
+
 ._customer-list {
   margin-bottom: 30px;
 }
@@ -70,12 +79,6 @@
   margin-bottom: 30px;
 }
 
-._customer-about-page__container {
-  max-width: 1300px;
-  padding: 30px 10px;
-  margin: 0 auto;
-}
-
 ._customer-skils__grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -92,16 +95,24 @@
   justify-content: center;
   align-items: center;
 }
+._customer-skill__grid-item a {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-decoration: none;
+}
 ._customer-skill__grid-item p {
   font: 500 18px/24px "Montserrat", sans-serif;
 }
 ._customer-skill__grid-item img {
   width: 100px;
   height: 100px;
-  transition: 0.3s ease-in-out;
+  transition: 0.1s ease-in-out;
 }
 ._customer-skill__grid-item:hover img {
   filter: drop-shadow(0 7px 3px #818181);
   transform: scale(1.05);
-  transition: 0.3s ease-in-out;
+  transition: 0.1s ease-in-out;
 }/*# sourceMappingURL=style.css.map */

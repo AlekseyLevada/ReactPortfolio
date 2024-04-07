@@ -1,0 +1,50 @@
+._customer-portfolio-page {
+  background: url(../../../img/about_bg.jpg) no-repeat center/cover;
+  width: 100%;
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+._customer-portfolio-page ._customer-navbar {
+  margin-bottom: 30px;
+}
+._customer-portfolio-page ._customer-navbar a {
+  text-decoration: none;
+}
+._customer-portfolio-page h1 {
+  font: 700 38px/1.2 "Montserrat", sans-serif;
+  text-align: center;
+  margin-bottom: 30px;
+}
+._customer-portfolio-page h2 {
+  font: 700 28px/1.2 "Montserrat", sans-serif;
+  margin-bottom: 30px;
+}
+._customer-portfolio-page h3 {
+  font: 700 22px/1.2 "Montserrat", sans-serif;
+  margin-bottom: 30px;
+}
+._customer-portfolio-page h4 {
+  font: 700 18px/1.2 "Montserrat", sans-serif;
+  margin-bottom: 30px;
+}
+._customer-portfolio-page p {
+  font: 500 16px/24px "Montserrat", sans-serif;
+  margin-bottom: 10px;
+}
+._customer-portfolio-page p:last-of-type {
+  margin-bottom: 0 !important;
+}
+._customer-portfolio-page a {
+  font: italic 500 16px/24px "Montserrat", sans-serif;
+  text-underline-offset: 3px;
+  text-decoration: underline;
+}
+._customer-portfolio-page a:hover {
+  text-decoration: none;
+}
+
+._customer-portfolio-page__container {
+  max-width: 1300px;
+  padding: 30px 10px;
+  margin: 0 auto;
+}/*# sourceMappingURL=style.css.map */

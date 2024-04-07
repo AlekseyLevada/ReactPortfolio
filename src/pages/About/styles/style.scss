@@ -1,5 +1,8 @@
 ._customer-about-page {
-  background: url(../../../img/about_bg.jpg) no-repeat center/cover;
+  background: url(../../../img/about_bg.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   min-height: 100vh;
   background-attachment: fixed;
@@ -55,6 +58,12 @@
   }
 }
 
+._customer-about-page__container {
+  max-width: 1300px;
+  padding: 30px 10px 30px;
+  margin: 0 auto;
+}
+
 ._customer-list {
   margin-bottom: 30px;
 
@@ -85,12 +94,6 @@
   margin-bottom: 30px;
 }
 
-._customer-about-page__container {
-  max-width: 1300px;
-  padding: 30px 10px;
-  margin: 0 auto;
-}
-
 ._customer-skils__grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -106,6 +109,16 @@
   text-align: center;
   justify-content: center;
   align-items: center;
+
+  a {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+  }
+
   p {
     font: 500 18px/24px "Montserrat", sans-serif;
   }
@@ -113,14 +126,14 @@
   img {
     width: 100px;
     height: 100px;
-    transition: .3s ease-in-out;
+    transition: .1s ease-in-out;
   }
 
   &:hover {
     img {
       filter: drop-shadow(0 7px 3px #818181);
       transform: scale(1.05);
-      transition: .3s ease-in-out;
+      transition: .1s ease-in-out;
     }
   }
 }

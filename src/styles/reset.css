@@ -1,8 +1,16 @@
-*, *::before,
+@charset "UTF-8";
+*,
+*::before,
 *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   color: #221f1f;
   font-family: "Montserrat";
+  -ms-overflow-style: none; /* IE и Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+*::-webkit-scrollbar {
+  display: none;
 }/*# sourceMappingURL=reset.css.map */

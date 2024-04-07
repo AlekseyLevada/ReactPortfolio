@@ -2,6 +2,7 @@ import { createBrowserRouter, createHashRouter } from "react-router-dom";
 import { HomePage } from "../../pages/Home/HomePage";
 import { AboutPage } from "../../pages/About/AboutPage";
 import { ContactsPage } from "../../pages/Contacts/ContactsPage";
+import { PortfolioPage } from "../../pages/Portfolio/PortfolioPage";
 
 export const Router = createBrowserRouter([
   {
@@ -15,5 +16,13 @@ export const Router = createBrowserRouter([
   {
     path: "/contacts",
     element: <ContactsPage/>
+  },
+  {
+    path: "/portfolio",
+    element: <PortfolioPage/>
+  },
+  {
+    path: "/reviews",
+    element: <HomePage/>
   }
 ])

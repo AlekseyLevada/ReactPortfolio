@@ -1,6 +1,18 @@
 import './styles/style.css'
 import { Link } from 'react-router-dom'
 
+const cvUrl = "/my_cv.pdf"
+
+const downloadFile = (url) => {
+  const fileName = url.split("/").pop()
+  const aTag = document.createElement("a")
+  aTag.href = url
+  aTag.setAttribute("download", fileName)
+  document.body.appendChild(aTag)
+  aTag.click()
+  aTag.remove()
+}
+
 export const Navbar = () => {
   return (
     <div className='_customer-navbar'>
@@ -30,7 +42,7 @@ export const Navbar = () => {
             Контакты
           </li>
         </Link>
-        <Link>
+        <Link onClick={() => { downloadFile(cvUrl) }}>
           <li>
             Скачать CV
           </li>

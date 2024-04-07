@@ -1,6 +1,7 @@
 import './styles/style.css'
 import { Navbar } from '../../components/Navbar/Navbar'
 import { skills_list } from '../../lib/skills.js'
+import { Link } from 'react-router-dom'
 
 export const AboutPage = () => {
   return (
@@ -22,7 +23,7 @@ export const AboutPage = () => {
             Почему Frontend? Обожаю видеть результат своей работы!
           </p>
           <p>
-            Все начиналось с HTML и CSS3. Верстал блоки, изучал поведение элементов. После,  переключился на реальные макеты. Далее от статики решил перейти к интерактиву. Тут нужен JS, смотрел ролики на youtube, читал литературу. Одним из основных был <a href="https://learn.javascript.ru/" target="_blanc">Learn&nbsp;JavaScript</a>.
+            Все начиналось с HTML и CSS3. Верстал блоки, изучал поведение элементов. После,  переключился на реальные макеты. Далее от статики решил перейти к интерактиву. Тут нужен JS, смотрел ролики на Youtube, читал литературу. Одним из основных был <a href="https://learn.javascript.ru/" target="_blanc">Learn&nbsp;JavaScript</a>.
           </p>
           <p>
             Проходил разные бесплатные курсы по программированию, связанные с HTML, CSS3, Java Script.
@@ -34,7 +35,7 @@ export const AboutPage = () => {
             Первичный опыт в основном приобретал на своих небольших пет-проектах и работе на фрилансе, параллельно изучая документацию.
           </p>
           <p>
-            Коммерческий опыт, приобретал с помощью выполнения задач по проектам, под руководством опытых наставников.
+            Коммерческий опыт, приобретал с помощью выполнения задач по проектам, под руководством опытных наставников.
           </p>
         </div>
 
@@ -54,6 +55,7 @@ export const AboutPage = () => {
             </li>
           </ul>
         </div>
+
         <h2>
           Образование
         </h2>
@@ -68,23 +70,28 @@ export const AboutPage = () => {
             </li>
           </ul>
         </div>
+
         <h2>
           Стек технологий
         </h2>
+
         <div className="_customer-skils__grid">
           {
             skills_list.map(skill => {
               return (
                 <div className="_customer-skill__grid-item" key={skill.id}>
-                  <p>
-                    {skill.name}
-                  </p>
-                  <img src={skill.img} alt="" />
+                  <Link to={skill.link} target='_blank'>
+                    <p>
+                      {skill.name}
+                    </p>
+                    <img src={skill.img} alt="" loading='lazy' />
+                  </Link>
                 </div>
               )
             })
           }
         </div>
+
         <h2>
           Опыт работы
         </h2>
@@ -97,6 +104,7 @@ export const AboutPage = () => {
         <h4>
           Обязанности:
         </h4>
+
         <div className="_customer-list _customer-about__list">
           <ul>
             <li>
@@ -134,6 +142,7 @@ export const AboutPage = () => {
             </li>
           </ul>
         </div>
+
         <h4>
           Достижения:
         </h4>
@@ -143,7 +152,7 @@ export const AboutPage = () => {
           </p>
         </div>
         <h3>
-          «IT Компания CodeIT» Сентябрь 2016г. — июнь 2018 г.
+          «CodeIT» Сентябрь 2016г. — июнь 2018 г.
         </h3>
         <h4>
           Front End разработчик:
@@ -151,6 +160,7 @@ export const AboutPage = () => {
         <h4>
           Обязанности
         </h4>
+
         <div className="_customer-list _customer-about__list">
           <ul>
             <li>
@@ -182,6 +192,7 @@ export const AboutPage = () => {
             </li>
           </ul>
         </div>
+
         <h3>
           Портал «Пульс Цен» Май 2023г. — текущее время.
         </h3>
@@ -191,6 +202,7 @@ export const AboutPage = () => {
         <h4>
           Обязанности
         </h4>
+
         <div className="_customer-list _customer-about__list">
           <ul>
             <li>
@@ -200,7 +212,7 @@ export const AboutPage = () => {
               Верстка компонентов приложения для СК.
             </li>
             <li>
-              Реализация скриптов для эленментов сайтов и приложений (ФОС).
+              Реализация скриптов для элементов сайтов и приложений (ФОС).
             </li>
             <li>
               Фикс багов функционала СК.
