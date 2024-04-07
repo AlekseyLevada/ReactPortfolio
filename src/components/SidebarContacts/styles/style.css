@@ -1,0 +1,29 @@
+._customer-sidebar__contacts {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-self: flex-end;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+._customer-sidebar__contacts ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+._customer-sidebar__contacts img {
+  width: 24px;
+  height: 24px;
+  transition: 0.7s ease-in-out;
+}
+._customer-sidebar__contacts img:hover {
+  transform: scale(1.2);
+  filter: invert(1);
+  transition: 0.2s ease-in-out;
+}
+._customer-sidebar__contacts p {
+  font: 600 16px/24px "Montserrat", sans-serif;
+  color: #000;
+  text-transform: uppercase;
+}/*# sourceMappingURL=style.css.map */

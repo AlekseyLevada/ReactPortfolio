@@ -1,0 +1,25 @@
+._customer-intro-text {
+  position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+width: fit-content;
+height: fit-content;
+h1 {
+  display: inline;
+  font: 700 100px/116px "Montserrat", sans-serif;
+  &:first-of-type {
+    color: #000;
+    margin-right:30px;
+  }
+  &:last-of-type {
+    color: #754EF9;
+  }
+}
+p {
+  font: 600 25px/33px "Montserrat", sans-serif;
+  text-align: center;
+}
+}

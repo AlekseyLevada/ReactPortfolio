@@ -1,0 +1,31 @@
+._customer-sidebar__contacts {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-self: flex-end;
+  width: fit-content;
+  margin: 0 auto;
+
+  ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  img {
+    width: 24px;
+    height: 24px;
+    transition: 0.7s ease-in-out;
+
+    &:hover {
+      transform: scale(1.2);
+      filter: invert(1);
+      transition: 0.2s ease-in-out;
+    }
+  }
+  p {
+    font: 600 16px/24px "Montserrat", sans-serif;
+    color: #000;
+    text-transform: uppercase;
+  }
+}

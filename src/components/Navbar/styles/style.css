@@ -1,0 +1,29 @@
+._customer-navbar ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+._customer-navbar a {
+  text-decoration: none;
+}
+._customer-navbar li {
+  font: 600 16px/20px "Montserrat", sans-serif;
+  width: 150px;
+  height: 48px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  transition: 0.5s ease-in-out;
+}
+._customer-navbar li:hover {
+  transition: 0.2s ease-in-out;
+  background: #754EF9;
+  color: #fff;
+  box-shadow: 0 0 5px #221f1f;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,17 @@
+._customer-circles {
+  position: absolute;
+  z-index: 2;
+  top: 300px;
+  left: 80px;
+  width: 520px;
+  height: 520px;
+  overflow: hidden;
+  border-radius: 50%;
+  background: #754EF9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+._customer-circles img {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */

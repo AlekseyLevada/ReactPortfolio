@@ -1,0 +1,8 @@
+._customer-sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  background: #754EF9;
+  padding: 30px 10px;
+}/*# sourceMappingURL=style.css.map */
