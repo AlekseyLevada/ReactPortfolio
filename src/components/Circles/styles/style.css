@@ -1,7 +1,8 @@
 ._customer-circles {
   position: absolute;
   z-index: 2;
-  top: 300px;
+  top: 50%;
+  transform: translateY(-50%);
   left: 80px;
   width: 520px;
   height: 520px;

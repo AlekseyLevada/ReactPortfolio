@@ -26,4 +26,7 @@
   background: #754EF9;
   color: #fff;
   box-shadow: 0 0 5px #221f1f;
+}
+._customer-navbar li.active {
+  background: #754EF9;
 }/*# sourceMappingURL=style.css.map */

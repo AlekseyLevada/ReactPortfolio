@@ -1,10 +1,10 @@
 import './styles/style.css'
 import { Navbar } from '../../components/Navbar/Navbar'
 
-export const ContactsPage = () => {
+export const ReviewsPage = () => {
   return (
-    <div className='_customer-contacts-page'>
-      <div className="_customer-contacts-page__container">
+    <div className='_customer-reviews-page'>
+      <div className="_customer-reviews-page__container">
         <Navbar />
       </div>
     </div>
