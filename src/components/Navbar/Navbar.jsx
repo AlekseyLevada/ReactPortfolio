@@ -1,9 +1,6 @@
 import './styles/style.css'
 import { NavLink } from 'react-router-dom'
 import { menuItems } from '../../lib/menuItems'
-import { useState } from 'react'
-
-const [isActive, setIsActive] = useState(false)
 
 const cvUrl = "/my_cv.pdf"
 
