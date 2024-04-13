@@ -1,12 +1,14 @@
 import './styles/style.css'
-import {Navbar} from '../Navbar/Navbar'
-import { IntroText } from "../IntroText/IntroText";
+import { IntroText } from '../IntroText/IntroText'
+import { NavLink } from 'react-router-dom'
 
 export const MainContent = () => {
   return (
     <div className='_customer-main-content'>
-      <Navbar/>
-      <IntroText/>
+      <IntroText />
+      <NavLink className="_customer-btn" to="/about" >
+        Читать дальше
+      </NavLink>
     </div>
   )
 }

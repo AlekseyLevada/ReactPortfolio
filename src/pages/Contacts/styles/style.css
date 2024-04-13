@@ -4,11 +4,10 @@
   min-height: 100vh;
   background-attachment: fixed;
 }
-._customer-contacts-page ._customer-navbar {
-  margin-bottom: 30px;
-}
-._customer-contacts-page ._customer-navbar a {
-  text-decoration: none;
+._customer-contacts-page ._customer-contacts-page__container {
+  max-width: 1300px;
+  padding: 30px 10px;
+  margin: 0 auto;
 }
 ._customer-contacts-page h1 {
   font: 700 38px/1.2 "Montserrat", sans-serif;
@@ -33,18 +32,4 @@
 }
 ._customer-contacts-page p:last-of-type {
   margin-bottom: 0 !important;
-}
-._customer-contacts-page a {
-  font: italic 500 16px/24px "Montserrat", sans-serif;
-  text-underline-offset: 3px;
-  text-decoration: underline;
-}
-._customer-contacts-page a:hover {
-  text-decoration: none;
-}
-
-._customer-contacts-page__container {
-  max-width: 1300px;
-  padding: 30px 10px;
-  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */

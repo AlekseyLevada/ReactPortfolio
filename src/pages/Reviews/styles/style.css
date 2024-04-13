@@ -4,12 +4,6 @@
   min-height: 100vh;
   background-attachment: fixed;
 }
-._customer-reviews-page ._customer-navbar {
-  margin-bottom: 30px;
-}
-._customer-reviews-page ._customer-navbar a {
-  text-decoration: none;
-}
 ._customer-reviews-page h1 {
   font: 700 38px/1.2 "Montserrat", sans-serif;
   text-align: center;
@@ -33,14 +27,6 @@
 }
 ._customer-reviews-page p:last-of-type {
   margin-bottom: 0 !important;
-}
-._customer-reviews-page a {
-  font: italic 500 16px/24px "Montserrat", sans-serif;
-  text-underline-offset: 3px;
-  text-decoration: underline;
-}
-._customer-reviews-page a:hover {
-  text-decoration: none;
 }
 
 ._customer-reviews-page__container {

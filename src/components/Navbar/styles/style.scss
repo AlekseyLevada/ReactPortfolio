@@ -1,5 +1,5 @@
 ._customer-navbar {
-  ul {
+  nav {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -11,9 +11,6 @@
 
   a {
     text-decoration: none;
-  }
-
-  li {
     font: 600 16px/20px "Montserrat", sans-serif;
     width: 160px;
     height: 48px;
@@ -31,7 +28,9 @@
       box-shadow: 0 0 5px #221f1f;
     }
   }
-  li.active {
+
+  a.active {
     background: #754EF9;
+    color: #fff;
   }
 }

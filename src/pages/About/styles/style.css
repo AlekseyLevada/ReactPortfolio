@@ -7,12 +7,6 @@
   min-height: 100vh;
   background-attachment: fixed;
 }
-._customer-about-page ._customer-navbar {
-  margin-bottom: 30px;
-}
-._customer-about-page ._customer-navbar a {
-  text-decoration: none;
-}
 ._customer-about-page h1 {
   font: 700 38px/1.2 "Montserrat", sans-serif;
   text-align: center;

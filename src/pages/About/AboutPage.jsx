@@ -1,5 +1,4 @@
 import './styles/style.css'
-import { Navbar } from '../../components/Navbar/Navbar'
 import { skills_list } from '../../lib/skills.js'
 import { Link } from 'react-router-dom'
 
@@ -7,7 +6,6 @@ export const AboutPage = () => {
   return (
     <div className='_customer-about-page'>
       <div className='_customer-about-page__container'>
-        <Navbar />
         <h1>
           Привет, давай знакомиться!
         </h1>

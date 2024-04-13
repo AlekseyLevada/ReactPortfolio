@@ -1,29 +1,28 @@
 import { createBrowserRouter, createHashRouter } from "react-router-dom";
-import { HomePage } from "../../pages/Home/HomePage";
-import { AboutPage } from "../../pages/About/AboutPage";
-import { ContactsPage } from "../../pages/Contacts/ContactsPage";
-import { PortfolioPage } from "../../pages/Portfolio/PortfolioPage";
-import { ReviewsPage } from "../../pages/Reviews/ReviewsPage";
+import {AboutPage} from '../../pages/About/AboutPage'
+import {ReviewsPage} from '../../pages/Reviews/ReviewsPage'
+import {PortfolioPage} from '../../pages/Portfolio/PortfolioPage'
+import { MainLayout } from "../../pages/MainLayout/MainLayout";
+
+
+
+
 
 export const Router = createBrowserRouter([
   {
-    path: '/',
-    element: <HomePage />
+    path: "/",
+    element: <MainLayout/>
   },
   {
-    path: "/about",
+    path: "/about", 
     element: <AboutPage/>
   },
   {
-    path: "/contacts",
-    element: <ContactsPage/>
-  },
-  {
-    path: "/portfolio",
-    element: <PortfolioPage/>
-  },
-  {
-    path: "/reviews",
+    path: "/reviews", 
     element: <ReviewsPage/>
+  },
+  {
+    path: "/portfolio", 
+    element: <PortfolioPage/>
   }
 ])

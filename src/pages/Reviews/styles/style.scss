@@ -4,14 +4,6 @@
   min-height: 100vh;
   background-attachment: fixed;
 
-  ._customer-navbar {
-    margin-bottom: 30px;
-
-    a {
-      text-decoration: none;
-    }
-  }
-
   h1 {
     font: 700 38px/1.2 "Montserrat", sans-serif;
     text-align: center;
@@ -41,16 +33,6 @@
 
     &:last-of-type {
       margin-bottom: 0 !important;
-    }
-  }
-
-  a {
-    font: italic 500 16px/24px "Montserrat", sans-serif;
-    text-underline-offset: 3px;
-    text-decoration: underline;
-
-    &:hover {
-      text-decoration: none;
     }
   }
 }

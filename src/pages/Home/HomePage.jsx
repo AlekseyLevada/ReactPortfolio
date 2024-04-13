@@ -5,8 +5,6 @@ import { MainContent } from "../../components/MainContent/MainContent.jsx"
 export const HomePage = () => {
   return (
     <div className='_customer-home-page'>
-      <Sidebar></Sidebar>
-      <MainContent></MainContent>
     </div>
   )
 }

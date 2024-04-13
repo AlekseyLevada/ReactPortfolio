@@ -18,10 +18,5 @@ export const menuItems = [
   {
     name: "Контакты",
     link: "/contacts"
-  },
-  {
-    name: "Cкачать CV",
-    link: "",
-    download: true,
-  },
+  }
 ]
