@@ -5,6 +5,7 @@
   background-size: cover;
   width: 100%;
   min-height: 100vh;
+  position: relative;
   background-attachment: fixed;
 
   h1 {
@@ -52,7 +53,7 @@
 
 ._customer-about-page__container {
   max-width: 1300px;
-  padding: 30px 10px 30px;
+  padding: 90px 10px 30px;
   margin: 0 auto;
 }
 

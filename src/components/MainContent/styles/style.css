@@ -5,12 +5,13 @@
 }
 
 ._customer-btn {
+  overflow: hidden;
   width: -moz-fit-content;
   width: fit-content;
   height: 52px;
   color: #fff;
-  border-radius: 5px;
-  padding: 10px 30px;
+  border-radius: 25px;
+  padding: 10px 60px;
   font: 600 18px/24px "Montserrat", sans-serif;
   text-decoration: none;
   background: transparent;
@@ -23,9 +24,6 @@
   justify-content: center;
   align-items: center;
   box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
-}
-
-._customer-btn {
   background: rgb(117, 78, 249);
   background: linear-gradient(0deg, rgb(117, 78, 249) 0%, rgb(117, 78, 249) 100%);
   border: none;

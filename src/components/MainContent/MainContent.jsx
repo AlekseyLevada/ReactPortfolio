@@ -7,7 +7,7 @@ export const MainContent = () => {
     <div className='_customer-main-content'>
       <IntroText />
       <NavLink className="_customer-btn" to="/about" >
-        Читать дальше
+        Вперед
       </NavLink>
     </div>
   )

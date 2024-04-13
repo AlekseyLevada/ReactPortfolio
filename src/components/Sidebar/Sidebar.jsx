@@ -1,7 +1,7 @@
 import './styles/style.css'
 import {SidebarLogo} from '../SidebarLogo/SidebarLogo'
-import { Circles } from "../Circles/Circles"
 import {SidebarContacts} from '../SidebarContacts/SidebarContacts'
+import { Circles } from "../Circles/Circles"
 
 export const Sidebar = () => {
   return (

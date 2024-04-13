@@ -1,11 +1,13 @@
 import './styles/style.css'
 import { skills_list } from '../../lib/skills.js'
 import { Link } from 'react-router-dom'
+import { Navbar } from '../../components/Navbar/Navbar.jsx'
 
 export const AboutPage = () => {
   return (
     <div className='_customer-about-page'>
       <div className='_customer-about-page__container'>
+        <Navbar />
         <h1>
           Привет, давай знакомиться!
         </h1>

@@ -26,6 +26,10 @@
   cursor: pointer;
   margin: 0 auto;
 
+  a {
+    text-decoration: none;
+  }
+
   h1 {
     transition: .3s ease-in-out;
     position: relative;
