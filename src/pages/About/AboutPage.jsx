@@ -1,7 +1,8 @@
-import './styles/style.css'
+import './styles/style.scss'
 import { skills_list } from '../../lib/skills.js'
 import { Link } from 'react-router-dom'
 import { Navbar } from '../../components/Navbar/Navbar.jsx'
+import { AppBtn } from '../../components/AppBtn/AppBtn.jsx'
 import myCvImg from '../../img/pdf.png'
 
 const cvUrl = "/my_cv.pdf"
@@ -244,7 +245,13 @@ export const AboutPage = () => {
         <h2>
           Тут ты можешь скачать и&nbsp;распечатать мое резюме
         </h2>
-        <Link onClick={() => {downloadFile(cvUrl)}} Link><img className='_customer-resume__img' src={myCvImg} alt="Резюме" loading='lazy'/></Link>
+        <div className="_customer-resume__file">
+          <Link onClick={() => { downloadFile(cvUrl) }} Link><img src={myCvImg} alt="Резюме" loading='lazy' /></Link>
+        </div>
+        <div className="_customer-btns">
+          <AppBtn link="/" text="Назад" />
+          <AppBtn link="/portfolio" text="Далее" />
+        </div>
       </div>
     </div>
   )

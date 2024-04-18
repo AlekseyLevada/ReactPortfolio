@@ -1,4 +1,4 @@
-import './styles/style.css'
+import './styles/style.scss'
 import { NavLink } from 'react-router-dom'
 import { menuItems } from '../../lib/menuItems'
 

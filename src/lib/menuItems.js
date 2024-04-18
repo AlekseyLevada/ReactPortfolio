@@ -8,7 +8,7 @@ export const menuItems = [
     link: "/about"
   },
   {
-    name: "Портфолио",
+    name: "Мои работы",
     link: "/portfolio"
   },
   {
