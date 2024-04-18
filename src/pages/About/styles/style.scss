@@ -130,3 +130,16 @@
     }
   }
 }
+
+._customer-resume__img {
+  width: 100px;
+  height: 100px;
+  transition: .1s ease-in-out;
+
+  &:hover {
+    transition: .1s ease-in-out;
+    filter: drop-shadow(0 7px 3px #818181);
+    transform: scale(1.05);
+    transition: .1s ease-in-out;
+  }
+}

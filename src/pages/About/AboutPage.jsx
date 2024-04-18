@@ -2,6 +2,19 @@ import './styles/style.css'
 import { skills_list } from '../../lib/skills.js'
 import { Link } from 'react-router-dom'
 import { Navbar } from '../../components/Navbar/Navbar.jsx'
+import myCvImg from '../../img/pdf.png'
+
+const cvUrl = "/my_cv.pdf"
+
+const downloadFile = (url) => {
+  const fileName = url.split("/cv").pop()
+  const aTag = document.createElement("a")
+  aTag.href = url
+  aTag.setAttribute("download", fileName)
+  document.body.appendChild(aTag)
+  aTag.click()
+  aTag.remove()
+}
 
 export const AboutPage = () => {
   return (
@@ -228,6 +241,10 @@ export const AboutPage = () => {
             </li>
           </ul>
         </div>
+        <h2>
+          Тут ты можешь скачать и&nbsp;распечатать мое резюме
+        </h2>
+        <Link onClick={() => {downloadFile(cvUrl)}} Link><img className='_customer-resume__img' src={myCvImg} alt="Резюме" loading='lazy'/></Link>
       </div>
     </div>
   )

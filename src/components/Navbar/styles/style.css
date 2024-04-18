@@ -28,10 +28,10 @@
   justify-content: center;
   align-items: center;
   padding: 10px;
-  transition: 0.5s ease-in-out;
+  transition: 0.1s ease-in-out;
 }
 ._customer-navbar a:hover {
-  transition: 0.2s ease-in-out;
+  transition: 0.1s ease-in-out;
   background: #754EF9;
   color: #fff;
   box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5), -4px -4px 6px 0 rgba(116, 125, 136, 0.5), inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2), inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);

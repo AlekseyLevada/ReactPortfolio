@@ -110,4 +110,16 @@
   filter: drop-shadow(0 7px 3px #818181);
   transform: scale(1.05);
   transition: 0.1s ease-in-out;
+}
+
+._customer-resume__img {
+  width: 100px;
+  height: 100px;
+  transition: 0.1s ease-in-out;
+}
+._customer-resume__img:hover {
+  transition: 0.1s ease-in-out;
+  filter: drop-shadow(0 7px 3px #818181);
+  transform: scale(1.05);
+  transition: 0.1s ease-in-out;
 }/*# sourceMappingURL=style.css.map */
