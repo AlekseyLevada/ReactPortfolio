@@ -9,7 +9,7 @@ import { ContactsPage } from "../../pages/Contacts/ContactsPage";
 
 
 
-export const Router = createBrowserRouter ([
+export const Router = createHashRouter ([
   {
     path: "/",
     element: <MainLayout/>,
