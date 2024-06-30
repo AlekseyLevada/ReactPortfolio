@@ -11,8 +11,8 @@
      -moz-user-select: none !important;
       -ms-user-select: none !important;
           user-select: none !important;
-  -ms-overflow-style: none; /* IE и Edge */
-  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 *::-webkit-scrollbar {
