@@ -1,0 +1,13 @@
+._customer-main-content {
+  position: relative;
+  background: url(../../../img/main_bg.jpg) no-repeat center/cover;
+  padding: 30px 10px;
+}
+
+._customer-btn {
+  transition: all 0.3s ease;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+}/*# sourceMappingURL=style.css.map */

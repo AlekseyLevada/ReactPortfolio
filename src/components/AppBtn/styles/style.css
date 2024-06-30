@@ -1,0 +1,26 @@
+._customer-btn {
+  border: none;
+  outline: none;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 52px;
+  color: #fff;
+  border-radius: 25px;
+  padding: 10px 50px;
+  font: 600 16px/24px "Montserrat", sans-serif;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  background: rgb(117, 78, 249);
+}
+
+._customer-btn:before {
+  height: 0%;
+  width: 2px;
+}
+
+._customer-btn:hover {
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5), -4px -4px 6px 0 rgba(116, 125, 136, 0.5), inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2), inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+}/*# sourceMappingURL=style.css.map */

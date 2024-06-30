@@ -1,0 +1,112 @@
+@media screen and (max-width: 1550px) {
+  ._customer-intro-text h1 {
+    font-size: 80px;
+    line-height: 1.2;
+  }
+  ._customer-circles {
+    width: 420px;
+    height: 420px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  ._customer-intro-text h1 {
+    font-size: 60px;
+    line-height: 1.2;
+  }
+  ._customer-circles {
+    width: 320px;
+    height: 320px;
+  }
+}
+@media screen and (max-width: 978px) {
+  ._customer-sidebar {
+    padding: 20px 10px;
+  }
+  ._customer-circles {
+    display: none;
+  }
+  ._customer-main-layout {
+    display: grid;
+    grid-template-columns: minmax(auto, 140px) 1fr;
+    min-height: 100vh;
+  }
+  ._customer-sidebar__logo {
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+  }
+  ._customer-sidebar__logo h1 {
+    margin-bottom: 0;
+  }
+  ._customer-sidebar__contacts ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  ._customer-sidebar__contacts ul a {
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  ._customer-sidebar__contacts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  ._customer-sidebar__contacts p {
+    -webkit-writing-mode: vertical-lr;
+        -ms-writing-mode: tb-lr;
+            writing-mode: vertical-lr;
+  }
+  ._customer-sidebar__logo h1::before {
+    top: 100%;
+    right: 0;
+  }
+}
+@media screen and (max-width: 650px) {
+  ._customer-sidebar__contacts p {
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+  }
+  ._customer-intro-text h1 {
+    font-size: 40px;
+  }
+  ._customer-intro-text p {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+  ._customer-main-content ._customer-btn {
+    width: 220px;
+  }
+}
+@media screen and (max-width: 490px) {
+  ._customer-main-layout {
+    grid-template-columns: minmax(auto, 61px) 1fr;
+  }
+  ._customer-intro-text h1:first-of-type {
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  ._customer-intro-text {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  ._customer-intro-text h1:last-of-type {
+    margin-bottom: 20px;
+  }
+}

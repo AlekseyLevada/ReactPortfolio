@@ -1,0 +1,46 @@
+._customer-navbar {
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0;
+  box-shadow: 0 5px 20px rgba(34, 31, 31, 0.2509803922);
+  background: #f1f1f1;
+}
+._customer-navbar nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  width: 100%;
+  height: 70px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+._customer-navbar a {
+  text-decoration: none;
+  font: 600 16px/20px "Montserrat", sans-serif;
+  width: 160px;
+  height: 48px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  transition: 0.1s ease-in-out;
+}
+._customer-navbar a:hover {
+  transition: 0.1s ease-in-out;
+  background: #754EF9;
+  color: #fff;
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5), -4px -4px 6px 0 rgba(116, 125, 136, 0.5), inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2), inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+}
+._customer-navbar a:active {
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5), -4px -4px 6px 0 rgba(116, 125, 136, 0.5), inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2), inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+}
+._customer-navbar a.active {
+  background: #754ef9;
+  color: #fff;
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5), -4px -4px 6px 0 rgba(116, 125, 136, 0.5), inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2), inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+}/*# sourceMappingURL=style.css.map */
