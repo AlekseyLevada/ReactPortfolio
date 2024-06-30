@@ -8,7 +8,7 @@ import myCvImg from '../../img/pdf.png'
 const cvUrl = "/my_cv.pdf"
 
 const downloadFile = (url) => {
-  const fileName = url.split("/cv").pop()
+  const fileName = url.split("my_cv").pop()
   const aTag = document.createElement("a")
   aTag.href = url
   aTag.setAttribute("download", fileName)
