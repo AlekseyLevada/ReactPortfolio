@@ -1,5 +1,5 @@
 import { Navbar } from '../../components/Navbar/Navbar'
-import './styles/style.scss'
+import './styles/style.css'
 
 export const ReviewsPage = () => {
   return (
