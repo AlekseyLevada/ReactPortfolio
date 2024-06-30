@@ -5,13 +5,13 @@ import { Navbar } from '../../components/Navbar/Navbar.jsx'
 import { AppBtn } from '../../components/AppBtn/AppBtn.jsx'
 import myCvImg from '../../img/pdf.png'
 
-const cvUrl = "/my_cv.pdf"
+const cvUrl = "my_cv.pdf"
 
 const downloadFile = (url) => {
   const fileName = url.split("my_cv").pop()
   const aTag = document.createElement("a")
   aTag.href = url
-  aTag.setAttribute("download", fileName)
+  aTag.setAttribute("download", "Aleksey_Levada_CV")
   document.body.appendChild(aTag)
   aTag.click()
   aTag.remove()
@@ -246,7 +246,7 @@ export const AboutPage = () => {
           Тут ты можешь скачать и&nbsp;распечатать мое резюме
         </h2>
         <div className="_customer-resume__file">
-          <Link onClick={() => { downloadFile(cvUrl) }} Link><img src={myCvImg} alt="Резюме" loading='lazy' /></Link>
+          <Link onClick={() => { downloadFile(cvUrl) }} Link><img src={myCvImg} loading='lazy' title="Резюме" alt="Резюме"/></Link>
         </div>
         <div className="_customer-btns">
           <AppBtn link="/" text="Назад" />
