@@ -1,4 +1,4 @@
-import './styles/style.css'
+import './styles/style.scss'
 import mainPhoto from '../../img/int_img.png'
 
 export const Circles = () => {

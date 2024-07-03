@@ -1,4 +1,4 @@
-import './styles/style.css'
+import './styles/style.scss'
 import { Sidebar } from '../../components/Sidebar/Sidebar'
 import { MainContent } from '../../components/MainContent/MainContent'
 

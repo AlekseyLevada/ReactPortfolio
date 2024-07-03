@@ -1,5 +1,5 @@
 import { Navbar } from '../../components/Navbar/Navbar'
-import './styles/style.css'
+import './styles/style.scss'
 
 export const ContactsPage = () => {
   return (

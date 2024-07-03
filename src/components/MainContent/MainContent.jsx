@@ -1,4 +1,4 @@
-import './styles/style.css'
+import './styles/style.scss'
 import { IntroText } from '../IntroText/IntroText'
 import { AppBtn } from '../AppBtn/AppBtn'
 

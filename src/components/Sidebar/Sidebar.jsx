@@ -1,4 +1,4 @@
-import './styles/style.css'
+import './styles/style.scss'
 import {SidebarLogo} from '../SidebarLogo/SidebarLogo'
 import {SidebarContacts} from '../SidebarContacts/SidebarContacts'
 import { Circles } from "../Circles/Circles"

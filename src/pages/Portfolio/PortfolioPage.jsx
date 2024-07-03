@@ -1,6 +1,6 @@
 import { Navbar } from '../../components/Navbar/Navbar.jsx'
 import { AppBtn } from '../../components/AppBtn/AppBtn.jsx'
-import './styles/style.css'
+import './styles/style.scss'
 
 export const PortfolioPage = () => {
   return (

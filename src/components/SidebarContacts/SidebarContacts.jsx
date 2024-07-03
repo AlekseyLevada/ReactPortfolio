@@ -1,4 +1,4 @@
-import './styles/style.css'
+import './styles/style.scss'
 import phone_icon from '../../img/phone_icon.png'
 import mail_icon from '../../img/mail_icon.png'
 import watsapp_icon from '../../img/watsapp_icon.png'

@@ -1,4 +1,4 @@
-import './styles/style.css'
+import './styles/style.scss'
 import { skills_list } from '../../lib/skills.js'
 import { Link } from 'react-router-dom'
 import { Navbar } from '../../components/Navbar/Navbar.jsx'
