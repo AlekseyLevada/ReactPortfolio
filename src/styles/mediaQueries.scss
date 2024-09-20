@@ -70,6 +70,39 @@
   ._customer-skils__grid {
     grid-template-columns: repeat(4, 1fr);
   }
+
+  ._customer-about-page {
+    h1 {
+      font-size: 28px;
+    }
+
+    h2 {
+      font-size: 24px;
+    }
+
+    h3 {
+      font-size: 20px;
+    }
+
+    h2,
+    h3,
+    h4 {
+      text-align: center;
+    }
+  }
+
+  ._customer-btns {
+    gap: 10px;
+  }
+
+  ._customer-btn {
+    padding: 10px 45px;
+  }
+
+  ._customer-resume__file {
+    width: fit-content;
+    margin: 0 auto 30px auto;
+  }
 }
 
 @media screen and (max-width:650px) {

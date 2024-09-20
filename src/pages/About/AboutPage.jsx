@@ -23,7 +23,7 @@ export const AboutPage = () => {
       <div className='_customer-about-page__container'>
         <Navbar />
         <h1>
-          Привет, давай знакомиться!
+          Привет, давай&nbsp;знакомиться!
         </h1>
 
         <div className="_customer-about__info">
@@ -110,7 +110,7 @@ export const AboutPage = () => {
           Опыт работы
         </h2>
         <h3>
-          ОАО «Силур» Август 2008г. — май 2022 г.
+          ОАО&nbsp;«Силур» Август&nbsp;2008г. — май&nbsp;2022&nbsp;г.
         </h3>
         <h4>
           Начальник участка:
@@ -166,7 +166,7 @@ export const AboutPage = () => {
           </p>
         </div>
         <h3>
-          «CodeIT» Сентябрь 2016г. — июнь 2018 г.
+          «CodeIT» Сентябрь&nbsp;2016г. — июнь&nbsp;2018&nbsp;г.
         </h3>
         <h4>
           Front End разработчик:
@@ -211,7 +211,7 @@ export const AboutPage = () => {
           Портал «Пульс Цен» Май 2023г. — текущее время.
         </h3>
         <h4>
-          Front End разработчик / Верстальщик:
+          Front End разработчик
         </h4>
         <h4>
           Обязанности

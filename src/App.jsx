@@ -1,3 +1,4 @@
+import './App.scss'
 import { BrowserRouter, RouterProvider } from "react-router-dom"
 import { Router } from "./utils/router/Router"
 
