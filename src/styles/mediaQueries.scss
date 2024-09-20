@@ -105,6 +105,33 @@
   }
 }
 
+@media screen and (max-width:767px) {
+
+  ._customer-navbar {
+    width: 80%;
+    right: 0;
+    left: auto;
+    height: 100%;
+    transform: translateX(100%);
+  }
+
+  ._customer-navbar nav {
+    gap: 40px;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  ._customer-navbar a {
+    font-size: 18px;
+    height: 52px;
+    width: 95%;
+  }
+
+  ._customer-about-page__container {
+    padding: 30px 10px 30px;
+  }
+}
+
 @media screen and (max-width:650px) {
   ._customer-sidebar__contacts p {
     writing-mode: vertical-rl;
