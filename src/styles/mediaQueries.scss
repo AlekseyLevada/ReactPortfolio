@@ -113,6 +113,7 @@
     left: auto;
     height: 100%;
     transform: translateX(100%);
+    transition: .5s ease-in-out;
   }
 
   ._customer-navbar nav {
@@ -128,7 +129,7 @@
   }
 
   ._customer-about-page__container {
-    padding: 30px 10px 30px;
+    padding: 40px 10px 30px;
   }
 }
 

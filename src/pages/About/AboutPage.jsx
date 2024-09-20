@@ -1,9 +1,11 @@
 import './styles/style.scss'
 import { skills_list } from '../../lib/skills.js'
+import { BurgerMenu } from '../../components/BurgerMenu/BurgerMenu.jsx'
 import { Link } from 'react-router-dom'
 import { Navbar } from '../../components/Navbar/Navbar.jsx'
 import { AppBtn } from '../../components/AppBtn/AppBtn.jsx'
 import myCvImg from '../../img/pdf.png'
+import { useEffect, useState } from 'react'
 
 const cvUrl = "my_cv.pdf"
 
@@ -18,10 +20,12 @@ const downloadFile = (url) => {
 }
 
 export const AboutPage = () => {
+
   return (
     <div className='_customer-about-page'>
       <div className='_customer-about-page__container'>
         <Navbar />
+        <BurgerMenu/>
         <h1>
           Привет, давай&nbsp;знакомиться!
         </h1>
@@ -246,7 +250,7 @@ export const AboutPage = () => {
           Тут ты можешь скачать и&nbsp;распечатать мое резюме
         </h2>
         <div className="_customer-resume__file">
-          <Link onClick={() => { downloadFile(cvUrl) }} Link><img src={myCvImg} loading='lazy' title="Резюме" alt="Резюме"/></Link>
+          <Link onClick={() => { downloadFile(cvUrl) }} Link><img src={myCvImg} loading='lazy' title="Резюме" alt="Резюме" /></Link>
         </div>
         <div className="_customer-btns">
           <AppBtn link="/" text="Назад" />
