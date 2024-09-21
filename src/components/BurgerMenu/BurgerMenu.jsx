@@ -6,11 +6,11 @@ import { toggle } from '../../utils/store/slices/burgerSlice'
 export const BurgerMenu = () => {
 
   const dispatch = useDispatch()
-  useSelector((state) => state.burgerReducer.toggle)
+  const burgerState = useSelector((state) => state.burgerReducer.value)
 
 
   return (
-    <div className='_customer-burger-menu' onClick={() => dispatch(toggle())}>
+    <div className={burgerState? "_customer-burger-menu is-active": "_customer-burger-menu"} onClick={() => dispatch(toggle())}>
       
     </div>
   )

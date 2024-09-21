@@ -1,5 +1,6 @@
 import { Navbar } from '../../components/Navbar/Navbar.jsx'
 import { AppBtn } from '../../components/AppBtn/AppBtn.jsx'
+import { BurgerMenu } from '../../components/BurgerMenu/BurgerMenu.jsx'
 import './styles/style.scss'
 
 export const PortfolioPage = () => {
@@ -7,6 +8,7 @@ export const PortfolioPage = () => {
     <div className="_customer-portfolio-page">
       <div className="_customer-portfolio-page__container">
         <Navbar />
+        <BurgerMenu/>
         <p>Страница на оформлении</p>
         <div className="_customer-btns">
           <AppBtn link="/about" text="Назад"/>

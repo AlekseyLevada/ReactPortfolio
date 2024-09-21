@@ -1,4 +1,5 @@
 import { Navbar } from '../../components/Navbar/Navbar'
+import { BurgerMenu } from '../../components/BurgerMenu/BurgerMenu'
 import './styles/style.scss'
 
 export const ContactsPage = () => {
@@ -6,6 +7,7 @@ export const ContactsPage = () => {
     <div className='_customer-contacts-page'>
       <div className="_customer-contacts-page__container">
         <Navbar/>
+        <BurgerMenu/>
       </div>
     </div>
   )

@@ -112,16 +112,18 @@
   }
 
   ._customer-navbar {
-    width: 80%;
+    width: 100%;
     right: 0;
     left: auto;
     height: 100%;
-    transform: translateX(100%);
+    transform: translateY(-100%);
     transition: .5s ease-in-out;
+    background: -webkit-linear-gradient(90deg, #eeeef0, #e7e8ea, #ecedef);
+    background: linear-gradient(90deg, #eeeef0, #e7e8ea, #ecedef);
   }
 
   ._customer-navbar.is-active {
-    transform: translateX(0%);
+    transform: translateY(0%);
     transition: .5s ease-in-out;
   }
 
@@ -134,7 +136,7 @@
   ._customer-navbar a {
     font-size: 18px;
     height: 52px;
-    width: 95%;
+    width: 60%;
   }
 }
 

@@ -1,4 +1,5 @@
 import { Navbar } from '../../components/Navbar/Navbar'
+import { BurgerMenu } from '../../components/BurgerMenu/BurgerMenu'
 import './styles/style.scss'
 
 export const ReviewsPage = () => {
@@ -6,6 +7,7 @@ export const ReviewsPage = () => {
     <div className='_customer-reviews-page'>
       <div className="_customer-reviews-page__container">
         <Navbar/>
+        <BurgerMenu/>
       </div>
     </div>
   )

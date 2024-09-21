@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom'
 import { Navbar } from '../../components/Navbar/Navbar.jsx'
 import { AppBtn } from '../../components/AppBtn/AppBtn.jsx'
 import myCvImg from '../../img/pdf.png'
-import { useEffect, useState } from 'react'
 
 const cvUrl = "my_cv.pdf"
 
