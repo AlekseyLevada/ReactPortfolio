@@ -8,7 +8,6 @@ export const BurgerMenu = () => {
   const dispatch = useDispatch()
   const burgerState = useSelector((state) => state.burgerReducer.value)
 
-
   return (
     <div className={burgerState? "_customer-burger-menu is-active": "_customer-burger-menu"} onClick={() => dispatch(toggle())}>
       
