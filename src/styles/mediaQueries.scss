@@ -107,7 +107,10 @@
 
 @media screen and (max-width:767px) {
 
-  ._customer-about-page__container {
+  ._customer-about-page__container,
+  ._customer-portfolio-page__container,
+  ._customer-reviews-page__container,
+  ._customer-contacts-page__container {
     padding: 40px 10px 30px;
   }
 
