@@ -107,12 +107,21 @@
 
 @media screen and (max-width:767px) {
 
+  ._customer-about-page__container {
+    padding: 40px 10px 30px;
+  }
+
   ._customer-navbar {
     width: 80%;
     right: 0;
     left: auto;
     height: 100%;
     transform: translateX(100%);
+    transition: .5s ease-in-out;
+  }
+
+  ._customer-navbar.is-active {
+    transform: translateX(0%);
     transition: .5s ease-in-out;
   }
 
@@ -126,10 +135,6 @@
     font-size: 18px;
     height: 52px;
     width: 95%;
-  }
-
-  ._customer-about-page__container {
-    padding: 40px 10px 30px;
   }
 }
 
