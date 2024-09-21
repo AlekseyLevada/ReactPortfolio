@@ -8,11 +8,13 @@ export const PortfolioPage = () => {
     <div className="_customer-portfolio-page">
       <div className="_customer-portfolio-page__container">
         <Navbar />
-        <BurgerMenu/>
-        <p>Страница на оформлении</p>
+        <BurgerMenu />
+        <h1>
+          Мои работы
+        </h1>
         <div className="_customer-btns">
-          <AppBtn link="/about" text="Назад"/>
-          <AppBtn link="/reviews" text="Далее"/>
+          <AppBtn link="/about" text="Назад" />
+          <AppBtn link="/reviews" text="Далее" />
         </div>
       </div>
     </div>

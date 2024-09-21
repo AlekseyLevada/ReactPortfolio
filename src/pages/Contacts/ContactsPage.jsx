@@ -8,6 +8,9 @@ export const ContactsPage = () => {
       <div className="_customer-contacts-page__container">
         <Navbar/>
         <BurgerMenu/>
+        <h1>
+          Контакты
+        </h1>
       </div>
     </div>
   )

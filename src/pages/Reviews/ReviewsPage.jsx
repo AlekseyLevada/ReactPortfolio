@@ -8,6 +8,9 @@ export const ReviewsPage = () => {
       <div className="_customer-reviews-page__container">
         <Navbar/>
         <BurgerMenu/>
+        <h1>
+          Отзывы клиентов
+        </h1>
       </div>
     </div>
   )
