@@ -71,24 +71,27 @@
     grid-template-columns: repeat(4, 1fr);
   }
 
-  ._customer-about-page {
-    h1 {
-      font-size: 28px;
-    }
+  ._customer-title {
+    font-size: 24px;
+  }
 
-    h2 {
-      font-size: 24px;
-    }
+  ._customer-subtitle {
+    font-size: 22px;
+  }
 
-    h3 {
-      font-size: 20px;
-    }
+  ._customer-suptitle {
+    font-size: 20px;
+  }
 
-    h2,
-    h3,
-    h4 {
-      text-align: center;
-    }
+  ._customer-suptitle--sm {
+    font-size: 18px;
+  }
+
+  ._customer-title,
+  ._customer-subtitle,
+  ._customer-suptitle,
+  ._customer-suptitle--sm {
+    text-align: center;
   }
 
   ._customer-btns {
@@ -120,14 +123,14 @@
     left: auto;
     height: 100%;
     transform: translateY(-100%);
-    transition: .5s ease-in-out;
+    transition: .3s ease-in-out;
     background: -webkit-linear-gradient(90deg, #eeeef0, #e7e8ea, #ecedef);
     background: linear-gradient(90deg, #eeeef0, #e7e8ea, #ecedef);
   }
 
   ._customer-navbar.is-active {
     transform: translateY(0%);
-    transition: .5s ease-in-out;
+    transition: .3s ease-in-out;
   }
 
   ._customer-navbar nav {

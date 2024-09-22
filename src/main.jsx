@@ -4,6 +4,7 @@ import {App} from './App.jsx'
 import { store } from './utils/store/store.jsx'
 import { Provider } from 'react-redux'
 import './styles/reset.scss'
+import './styles/globalStyles.scss'
 import './styles/mediaQueries.scss'
 
 ReactDOM.createRoot(document.getElementById('root')).render(

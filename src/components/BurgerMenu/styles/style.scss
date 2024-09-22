@@ -3,12 +3,13 @@
   width: 32px;
   height: 32px;
   border-radius: 10px;
-  position: absolute;
+  position: fixed;
   top: 10px;
   right: 10px;
   z-index: 3;
   display: flex;
   display: none;
+  background: #e7e8ea;
 
   &::before {
     content: "";

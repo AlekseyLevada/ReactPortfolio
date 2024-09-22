@@ -6,7 +6,7 @@ import './styles/style.scss'
 export const PortfolioPage = () => {
   return (
     <div className="_customer-portfolio-page">
-      <div className="_customer-portfolio-page__container">
+      <div className="_customer-page__container _customer-portfolio-page__container">
         <Navbar />
         <BurgerMenu />
         <h1 className='_customer-title _customer-portfolio-page__title'>

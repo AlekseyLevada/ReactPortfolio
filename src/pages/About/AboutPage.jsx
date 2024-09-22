@@ -22,14 +22,14 @@ export const AboutPage = () => {
 
   return (
     <div className='_customer-about-page'>
-      <div className='_customer-about-page__container'>
+      <div className='_customer-page__container _customer-about-page__container'>
         <Navbar />
-        <BurgerMenu/>
+        <BurgerMenu />
         <h1 className='_customer-title _customer-about-page__title'>
           Привет, давай&nbsp;знакомиться!
         </h1>
 
-        <div className="_customer-about__info">
+        <div className="_customer-info _customer-about__info">
           <p>
             Я Левада Алексей&nbsp;- Frontend разработчик. Живу в&nbsp;Москве. Мне&nbsp;- 35 лет.
           </p>
@@ -56,7 +56,7 @@ export const AboutPage = () => {
           </p>
         </div>
 
-        <h2>
+        <h2 className='_customer-subtitle _customer-about-page__subtitle'>
           Качества
         </h2>
         <div className="_customer-list _customer-about__list">
@@ -73,7 +73,7 @@ export const AboutPage = () => {
           </ul>
         </div>
 
-        <h2>
+        <h2 className='_customer-subtitle _customer-about-page__subtitle'>
           Образование
         </h2>
 
@@ -88,7 +88,7 @@ export const AboutPage = () => {
           </ul>
         </div>
 
-        <h2>
+        <h2 className='_customer-subtitle _customer-about-page__subtitle'>
           Стек технологий
         </h2>
 
@@ -109,16 +109,16 @@ export const AboutPage = () => {
           }
         </div>
 
-        <h2>
+        <h2 className='_customer-subtitle _customer-about-page__subtitle'>
           Опыт работы
         </h2>
-        <h3>
+        <h3 className='_customer-suptitle _customer-about-page__suptitle'>
           ОАО&nbsp;«Силур» Август&nbsp;2008г. — май&nbsp;2022&nbsp;г.
         </h3>
-        <h4>
+        <h4 className='_customer-suptitle--sm _customer-about-page__suptitle--sm'>
           Начальник участка:
         </h4>
-        <h4>
+        <h4 className='_customer-suptitle--sm _customer-about-page__suptitle--sm'>
           Обязанности:
         </h4>
 
@@ -160,21 +160,21 @@ export const AboutPage = () => {
           </ul>
         </div>
 
-        <h4>
+        <h4 className='_customer-suptitle--sm _customer-about-page__suptitle--sm'>
           Достижения:
         </h4>
-        <div className="_customer-about__info">
+        <div className="_customer-info _customer-about__info">
           <p>
             Внедрил оптимизированную технологию производства органического сердечника для стальных канатов, по сокращению финансово-производственных расходов.
           </p>
         </div>
-        <h3>
+        <h3 className='_customer-suptitle _customer-about-page__suptitle'>
           «CodeIT» Сентябрь&nbsp;2016г. — июнь&nbsp;2018&nbsp;г.
         </h3>
-        <h4>
+        <h4 className='_customer-suptitle--sm _customer-about-page__suptitle--sm'>
           Front End разработчик:
         </h4>
-        <h4>
+        <h4 className='_customer-suptitle--sm _customer-about-page__suptitle--sm'>
           Обязанности
         </h4>
 
@@ -210,13 +210,13 @@ export const AboutPage = () => {
           </ul>
         </div>
 
-        <h3>
+        <h3 className='_customer-suptitle _customer-about-page__suptitle'>
           Портал «Пульс Цен» Май 2023г. — текущее время.
         </h3>
-        <h4>
+        <h4 className='_customer-suptitle--sm _customer-about-page__suptitle--sm'>
           Front End разработчик
         </h4>
-        <h4>
+        <h4 className='_customer-suptitle--sm _customer-about-page__suptitle--sm'>
           Обязанности
         </h4>
 
@@ -245,7 +245,7 @@ export const AboutPage = () => {
             </li>
           </ul>
         </div>
-        <h2>
+        <h2 className='_customer-subtitle _customer-about-page__subtitle'>
           Тут ты можешь скачать и&nbsp;распечатать мое резюме
         </h2>
         <div className="_customer-resume__file">

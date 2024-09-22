@@ -1,5 +1,5 @@
 import './styles/style.scss'
-import mainPhoto from '../../img/int_img.png'
+import mainPhoto from '../../img/int_img.webp'
 
 export const Circles = () => {
   return (
