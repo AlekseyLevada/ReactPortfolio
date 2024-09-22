@@ -25,7 +25,7 @@ export const AboutPage = () => {
       <div className='_customer-about-page__container'>
         <Navbar />
         <BurgerMenu/>
-        <h1>
+        <h1 className='_customer-title _customer-about-page__title'>
           Привет, давай&nbsp;знакомиться!
         </h1>
 

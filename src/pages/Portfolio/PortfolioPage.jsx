@@ -9,7 +9,7 @@ export const PortfolioPage = () => {
       <div className="_customer-portfolio-page__container">
         <Navbar />
         <BurgerMenu />
-        <h1>
+        <h1 className='_customer-title _customer-portfolio-page__title'>
           Мои работы
         </h1>
         <div className="_customer-btns">
