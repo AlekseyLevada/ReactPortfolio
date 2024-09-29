@@ -21,8 +21,8 @@ const downloadFile = (url) => {
 export const AboutPage = () => {
 
   return (
-    <div className='_customer-about-page'>
-      <div className='_customer-page__container _customer-about-page__container'>
+    <section className='_customer-about-page'>
+      <main className='_customer-page__container _customer-about-page__container'>
         <Navbar />
         <BurgerMenu />
         <h1 className='_customer-title _customer-about-page__title'>
@@ -255,7 +255,7 @@ export const AboutPage = () => {
           <AppBtn link="/" text="Назад" />
           <AppBtn link="/portfolio" text="Далее" />
         </div>
-      </div>
-    </div>
+      </main>
+    </section>
   )
 }

@@ -5,8 +5,8 @@ import './styles/style.scss'
 
 export const PortfolioPage = () => {
   return (
-    <div className="_customer-portfolio-page">
-      <div className="_customer-page__container _customer-portfolio-page__container">
+    <section className="_customer-portfolio-page">
+      <main className="_customer-page__container _customer-portfolio-page__container">
         <Navbar />
         <BurgerMenu />
         <h1 className='_customer-title _customer-portfolio-page__title'>
@@ -16,7 +16,7 @@ export const PortfolioPage = () => {
           <AppBtn link="/about" text="Назад" />
           <AppBtn link="/reviews" text="Далее" />
         </div>
-      </div>
-    </div>
+      </main>
+    </section>
   )
 }

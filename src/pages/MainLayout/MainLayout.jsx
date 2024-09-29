@@ -4,9 +4,9 @@ import { MainContent } from '../../components/MainContent/MainContent'
 
 export const MainLayout = () => {
   return (
-    <div className="_customer-main-layout">
+    <section className="_customer-main-layout">
       <Sidebar/>
       <MainContent/>
-    </div>
+    </section>
   )
 }

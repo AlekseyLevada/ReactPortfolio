@@ -14,20 +14,28 @@ export const SidebarContacts = () => {
       </div>
       <div>
         <ul>
-          <a href="tel:+79851473585" target="_blank">
-            <img src={phone_icon} alt="" loading="lazy" />
-          </a>
-          <a href="mailto:aleksey.levada@gmail.com" target="_blank">
-            <img src={mail_icon} alt="" loading="lazy" />
-          </a>
-          <a href="//wa.me/+79851473585" target="_blank">
-            <img src={watsapp_icon} alt="" loading="lazy" />
-          </a>
-          <a href="//t.me/maybe1988" target="_blank">
-            <img src={telegram_icon} alt="" loading="lazy" />
-          </a>
+          <li>
+            <a href="tel:+79851473585" target="_blank">
+              <img src={phone_icon} alt="" loading="lazy" />
+            </a>
+          </li>
+          <li>
+            <a href="mailto:aleksey.levada@gmail.com" target="_blank">
+              <img src={mail_icon} alt="" loading="lazy" />
+            </a>
+          </li>
+          <li>
+            <a href="//wa.me/+79851473585" target="_blank">
+              <img src={watsapp_icon} alt="" loading="lazy" />
+            </a>
+          </li>
+          <li>
+            <a href="//t.me/maybe1988" target="_blank">
+              <img src={telegram_icon} alt="" loading="lazy" />
+            </a>
+          </li>
         </ul>
-    </div>
+      </div>
     </div>
   )
 }

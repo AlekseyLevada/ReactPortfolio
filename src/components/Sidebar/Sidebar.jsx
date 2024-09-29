@@ -5,10 +5,10 @@ import { Circles } from "../Circles/Circles"
 
 export const Sidebar = () => {
   return (
-    <div className='_customer-sidebar'>
+    <section className='_customer-sidebar'>
       <SidebarLogo/>
       <Circles/>
       <SidebarContacts/>
-    </div>
+    </section>
   )
 }

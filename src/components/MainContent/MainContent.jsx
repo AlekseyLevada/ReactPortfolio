@@ -4,9 +4,9 @@ import { AppBtn } from '../AppBtn/AppBtn'
 
 export const MainContent = () => {
   return (
-    <div className='_customer-main-content'>
+    <section className='_customer-main-content'>
       <IntroText />
       <AppBtn link="/about" text="Вперед"></AppBtn>
-    </div>
+    </section>
   )
 }

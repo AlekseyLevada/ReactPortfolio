@@ -12,6 +12,10 @@
     align-items: center;
   }
 
+  li {
+    list-style: none !important;
+  }
+
   img {
     width: 24px;
     height: 24px;
@@ -23,6 +27,7 @@
       transition: 0.2s ease-in-out;
     }
   }
+
   p {
     font: 600 16px/24px "Montserrat", sans-serif;
     color: #000;

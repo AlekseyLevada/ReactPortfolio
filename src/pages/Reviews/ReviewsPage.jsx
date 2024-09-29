@@ -5,8 +5,8 @@ import './styles/style.scss'
 
 export const ReviewsPage = () => {
   return (
-    <div className='_customer-reviews-page'>
-      <div className="_customer-page__container _customer-reviews-page__container">
+    <section className='_customer-reviews-page'>
+      <main className="_customer-page__container _customer-reviews-page__container">
         <Navbar/>
         <BurgerMenu/>
         <h1 className='_customer-title _customer-reviews-page__title'>
@@ -16,7 +16,7 @@ export const ReviewsPage = () => {
           <AppBtn link="/portfolio" text="Назад" />
           <AppBtn link="/contacts" text="Далее" />
         </div>
-      </div>
-    </div>
+      </main>
+    </section>
   )
 }
