@@ -1,0 +1,23 @@
+._customer-portfolio-work-card {
+  border: 2px solid #754EF9;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px #754EF935;
+}
+
+._customer-portfolio-work-card-link {
+  text-decoration: none;
+  padding: 10px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+._customer-portfolio-work-card-preview {
+  img {
+    width: 100%;
+    max-width: 100%;
+  }
+}

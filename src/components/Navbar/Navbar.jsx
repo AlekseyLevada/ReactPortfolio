@@ -11,7 +11,7 @@ export const Navbar = () => {
   const burgerState =  useSelector(state => state.burgerReducer.value)
 
   return (
-    <div className={burgerState? "_customer-navbar is-active": "_customer-navbar"}>
+    <div className={burgerState? "_customer-navbar is-active" : "_customer-navbar"}>
       <nav>
         {
           menuItems.map((item, index) => {
