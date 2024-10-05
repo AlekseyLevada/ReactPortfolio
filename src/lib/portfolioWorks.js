@@ -20,7 +20,7 @@ export const portfolioWorks = [
   },
   {
     id: 3,
-    workTitle: "Кровельно-Фасадная Компания",
+    workTitle: "Кровельная Компания",
     workPreview: preview_3,
     workSkills: "html css js swiper",
     workLink: "https://www.kfk174.ru/"

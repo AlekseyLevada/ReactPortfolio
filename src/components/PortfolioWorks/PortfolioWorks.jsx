@@ -14,7 +14,8 @@ export const PortfolioWorks = () => {
             link={work.workLink}
             title={work.workTitle}
             skills={work.workSkills}
-            preview={work.workPreview}/>
+            preview={work.workPreview}
+            description={work.workDescription}/>
           )
         })
       }

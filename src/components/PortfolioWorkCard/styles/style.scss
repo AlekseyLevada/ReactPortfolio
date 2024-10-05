@@ -1,7 +1,38 @@
 ._customer-portfolio-work-card {
-  border: 2px solid #754EF9;
+  position: relative;
+  overflow: hidden;
+  background: #f0f0f0;
+  border: 2px solid #f0f0f0;
   border-radius: 10px;
-  box-shadow: 0 10px 10px #754EF935;
+  box-shadow: 0 0px 10px #754EF935;
+  transition: .2s ease-in-out;
+
+  &:hover {
+    transition: .2s ease-in-out;
+    box-shadow: 0 0px 20px #754EF9;
+
+    &::before {
+      transition: .5s ease-in-out;
+      width: 300%;
+      height: 300%;
+      opacity: 1;
+    }
+  }
+
+  &::before {
+    content: "";
+    cursor: pointer;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background: rgba(117, 78, 249, .5);
+    backdrop-filter: blur(10px);
+    width: 0%;
+    height: 0%;
+    border-radius: 50%;
+    opacity: 0;
+    transition: .5s ease-in-out;
+  }
 }
 
 ._customer-portfolio-work-card-link {
@@ -12,12 +43,59 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 10px;
 }
 
+._customer-portfolio-work-card-title {
+  font: 500 16px / 24px "Montserrat", sans-serif;
+  text-align: center;
+}
+
 ._customer-portfolio-work-card-preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   img {
     width: 100%;
     max-width: 100%;
+    border: 2px solid #754EF9;
+    border-radius: 10px;
+  }
+}
+
+._customer-portfolio-work-card-skills {
+  font: 500 16px / 24px "Montserrat", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media screen and (max-width:960px) {
+  ._customer-portfolio__works {
+    gap: 10px;
+  }
+
+  ._customer-portfolio-work-card-title,
+  ._customer-portfolio-work-card-skills {
+    font-size: 12px;
+    line-height: 20px;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+}
+
+@media screen and (max-width:640px) {
+  ._customer-portfolio__works {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width:390px) {
+  ._customer-portfolio__works {
+    grid-template-columns: 1fr;
   }
 }
