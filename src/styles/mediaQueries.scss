@@ -72,19 +72,34 @@
   }
 
   ._customer-title {
-    font-size: 24px;
+    font-size: 22px;
+    margin-bottom: 20px;
   }
 
   ._customer-subtitle {
-    font-size: 22px;
+    font-size: 20px;
+    margin-bottom: 20px;
   }
 
   ._customer-suptitle {
-    font-size: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
   }
 
   ._customer-suptitle--sm {
-    font-size: 18px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  ._customer-list,
+  ._customer-info {
+    margin-bottom: 20px;
+  }
+
+  ._customer-skill__grid-item img,
+  ._customer-resume__file img {
+    width: 80px;
+    height: 80px;
   }
 
   ._customer-title,
@@ -105,6 +120,19 @@
   ._customer-resume__file {
     width: fit-content;
     margin: 0 auto 30px auto;
+  }
+
+  ._customer-info p,
+  ._customer-info a,
+  ._customer-list li,
+  ._customer-skill__grid-item p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  ._customer-list li {
+    margin-bottom: 5px;
+    padding-left: 30px;
   }
 }
 
