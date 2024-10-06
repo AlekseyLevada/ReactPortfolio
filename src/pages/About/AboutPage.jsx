@@ -29,7 +29,7 @@ export const AboutPage = () => {
           Привет, давай&nbsp;знакомиться!
         </h1>
 
-        <div className="_customer-info _customer-about__info">
+        <div className="_customer-info _customer-about-page__info">
           <p>
             Я Левада Алексей&nbsp;- Frontend разработчик. Живу в&nbsp;Москве. Мне&nbsp;- 35 лет.
           </p>
@@ -59,7 +59,7 @@ export const AboutPage = () => {
         <h2 className='_customer-subtitle _customer-about-page__subtitle'>
           Качества
         </h2>
-        <div className="_customer-list _customer-about__list">
+        <div className="_customer-list _customer-about-page__list">
           <ul>
             <li>
               Ответственность.
@@ -77,7 +77,7 @@ export const AboutPage = () => {
           Образование
         </h2>
 
-        <div className="_customer-list _customer-about__list">
+        <div className="_customer-list _customer-about-page__list">
           <ul>
             <li>
               2008 - 2011г.г. Донецкий национальный технический университет. Физико-математический факультет Металлургия черных и цветных металлов.
@@ -101,7 +101,7 @@ export const AboutPage = () => {
                     <p>
                       {skill.name}
                     </p>
-                    <img src={skill.img} alt="" loading='lazy' />
+                    <img src={skill.img} alt="" loading='lazy' draggable="false"/>
                   </Link>
                 </div>
               )
@@ -122,7 +122,7 @@ export const AboutPage = () => {
           Обязанности:
         </h4>
 
-        <div className="_customer-list _customer-about__list">
+        <div className="_customer-list _customer-about-page__list">
           <ul>
             <li>
               Руководство возглавляемым производственным участком.
@@ -163,7 +163,7 @@ export const AboutPage = () => {
         <h4 className='_customer-suptitle--sm _customer-about-page__suptitle--sm'>
           Достижения:
         </h4>
-        <div className="_customer-info _customer-about__info">
+        <div className="_customer-info _customer-about-page__info">
           <p>
             Внедрил оптимизированную технологию производства органического сердечника для стальных канатов, по сокращению финансово-производственных расходов.
           </p>
@@ -178,7 +178,7 @@ export const AboutPage = () => {
           Обязанности
         </h4>
 
-        <div className="_customer-list _customer-about__list">
+        <div className="_customer-list _customer-about-page__list">
           <ul>
             <li>
               Адаптивная и отзывчивая верстка.
@@ -220,7 +220,7 @@ export const AboutPage = () => {
           Обязанности
         </h4>
 
-        <div className="_customer-list _customer-about__list">
+        <div className="_customer-list _customer-about-page__list">
           <ul>
             <li>
               Адаптивная и отзывчивая верстка страниц (СК - сайта клиента).

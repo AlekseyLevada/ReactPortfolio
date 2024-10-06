@@ -13,7 +13,18 @@ export const PortfolioPage = () => {
         <h1 className='_customer-title _customer-portfolio-page__title'>
           Мои работы
         </h1>
-        <PortfolioWorks/>
+        <div className="_customer-info _customer-portfolio-page__info">
+          <p>
+            В&nbsp;данном разделе представлена лишь небольшая часть моих работ.
+          </p>
+          <p>
+            Для&nbsp;более детального ознакомления с&nbsp;остальными работами свяжитесь со&nbsp;мной любым удобным и&nbsp;доступным для&nbsp;Вас способом.
+          </p>
+          <p>
+            Для&nbsp;связи со&nbsp;мной все&nbsp;мои контактные данные есть в&nbsp;разделе c контактами.
+          </p>
+        </div>
+        <PortfolioWorks />
         <div className="_customer-btns">
           <AppBtn link="/about" text="Назад" />
           <AppBtn link="/reviews" text="Далее" />

@@ -39,7 +39,7 @@ a {
 
   p {
     font: 500 16px/24px "Montserrat", sans-serif;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 
     &:last-of-type {
       margin-bottom: 0 !important;
@@ -59,12 +59,13 @@ a {
     list-style: none !important;
     position: relative;
     padding-left: 35px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 
     &::before {
       content: "";
       position: absolute;
-      top: -2px;
+      top: 50%;
+      transform: translateY(-50%);
       left: 0;
       width: 24px;
       height: 24px;
