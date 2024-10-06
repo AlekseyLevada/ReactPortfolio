@@ -21,22 +21,22 @@ export const SidebarContacts = () => {
             </a>
           </li>
           <li>
-            <a href="mailto:aleksey.levada@gmail.com" target="_blank">
+            <a href="mailto:aleksey.levada@gmail.com" target="_blank" aria-label='Мобильный телефон' alt="Мобильный телефон">
               <img src={mail_icon} alt="" loading="lazy"  draggable="false"/>
             </a>
           </li>
           <li>
-            <a href="//wa.me/+79851473585" target="_blank">
+            <a href="//wa.me/+79851473585" target="_blank" aria-label='WatsApp' alt="WatsApp">
               <img src={watsapp_icon} alt="" loading="lazy"  draggable="false"/>
             </a>
           </li>
           <li>
-            <a href="//t.me/maybe1988" target="_blank">
+            <a href="//t.me/maybe1988" target="_blank" aria-label='Telegram' alt="Telegram">
               <img src={telegram_icon} alt="" loading="lazy"  draggable="false"/>
             </a>
           </li>
           <li>
-            <a href="https://github.com/AlekseyLevada" target="_blank">
+            <a href="https://github.com/AlekseyLevada" target="_blank" aria-label='Страница Github' alt="Страница Github">
               <img src={github_icon} alt="" loading="lazy"  draggable="false"/>
             </a>
           </li>

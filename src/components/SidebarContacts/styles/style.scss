@@ -16,21 +16,28 @@
     list-style: none !important;
   }
 
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   img {
     width: 24px;
     height: 24px;
     transition: 0.7s ease-in-out;
+    filter: brightness(1) invert(1) drop-shadow(0px 0px 3px #000);
 
     &:hover {
-      transform: scale(1.2);
-      filter: invert(1);
+      filter: invert(1) brightness(0);
       transition: 0.2s ease-in-out;
     }
   }
 
   p {
     font: 600 16px/24px "Montserrat", sans-serif;
-    color: #000;
+    color: #fff;
     text-transform: uppercase;
+    text-shadow: 0 0 5px #000;
   }
 }
