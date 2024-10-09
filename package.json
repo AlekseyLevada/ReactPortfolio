@@ -15,6 +15,7 @@
     "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
+    "@fontsource/montserrat": "^5.1.0",
     "@reduxjs/toolkit": "^2.2.7",
     "@tsparticles/all": "^3.5.0",
     "@tsparticles/react": "^3.0.0",

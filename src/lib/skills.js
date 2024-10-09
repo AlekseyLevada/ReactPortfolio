@@ -1,18 +1,19 @@
-import skill_1 from '../img/skill_1.png'
-import skill_2 from '../img/skill_2.png'
-import skill_3 from '../img/skill_3.png'
-import skill_4 from '../img/skill_4.png'
-import skill_5 from '../img/skill_5.png'
-import skill_6 from '../img/skill_6.png'
-import skill_7 from '../img/skill_7.png'
-import skill_8 from '../img/skill_8.png'
-import skill_9 from '../img/skill_9.png'
-import skill_10 from '../img/skill_10.png'
-import skill_11 from '../img/skill_11.png'
-import skill_12 from '../img/skill_12.png'
-import skill_13 from '../img/skill_13.png'
-import skill_14 from '../img/skill_14.png'
-import skill_15 from '../img/skill_15.png'
+import skill_1 from '../img/skills_icons/skill_1.png'
+import skill_2 from '../img/skills_icons/skill_2.png'
+import skill_3 from '../img/skills_icons/skill_3.png'
+import skill_4 from '../img/skills_icons/skill_4.png'
+import skill_5 from '../img/skills_icons/skill_5.png'
+import skill_6 from '../img/skills_icons/skill_6.png'
+import skill_7 from '../img/skills_icons/skill_7.png'
+import skill_8 from '../img/skills_icons/skill_8.png'
+import skill_9 from '../img/skills_icons/skill_9.png'
+import skill_10 from '../img/skills_icons/skill_10.png'
+import skill_11 from '../img/skills_icons/skill_11.png'
+import skill_12 from '../img/skills_icons/skill_12.png'
+import skill_13 from '../img/skills_icons/skill_13.png'
+import skill_14 from '../img/skills_icons/skill_14.png'
+import skill_15 from '../img/skills_icons/skill_15.png'
+import skill_16 from '../img/skills_icons/skill_16.png'
 
 export const skills_list = [
   {
@@ -104,5 +105,11 @@ export const skills_list = [
     name: "Stytled Components",
     img: skill_15,
     link: "https://styled-components.com/",
+  },
+  {
+    id: 16,
+    name: "jQuerry",
+    img: skill_16,
+    link: "https://jqueryui.com/",
   }
 ]
