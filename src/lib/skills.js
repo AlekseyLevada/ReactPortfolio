@@ -13,7 +13,7 @@ import skill_12 from '../img/skills_icons/skill_12.png'
 import skill_13 from '../img/skills_icons/skill_13.png'
 import skill_14 from '../img/skills_icons/skill_14.png'
 import skill_15 from '../img/skills_icons/skill_15.png'
-import skill_16 from '../img/skills_icons/skill_16.png'
+
 
 export const skills_list = [
   {
@@ -36,21 +36,21 @@ export const skills_list = [
   },
   {
     id: 4,
-    name: "React.js",
+    name: "TypeScript",
     img: skill_4,
-    link: "https://ru.legacy.reactjs.org/",
+    link: "https://www.typescriptlang.org/",
   },
   {
     id: 5,
-    name: "Sass",
+    name: "REACT",
     img: skill_5,
-    link: "https://sass-lang.com/",
+    link: "https://ru.legacy.reactjs.org/",
   },
   {
     id: 6,
-    name: "Redux Toolkit",
+    name: "Vue.js",
     img: skill_6,
-    link: "https://redux-toolkit.js.org/",
+    link: "https://vuejs.org/",
   },
   {
     id: 7,
@@ -60,15 +60,15 @@ export const skills_list = [
   },
   {
     id: 8,
-    name: "Vue.js",
+    name: "Redux Toolkit",
     img: skill_8,
-    link: "https://ru.vuejs.org/",
+    link: "https://redux-toolkit.js.org/",
   },
   {
     id: 9,
-    name: "Figma",
+    name: "GIT",
     img: skill_9,
-    link: "https://www.figma.com",
+    link: "https://git-scm.com/",
   },
   {
     id: 10,
@@ -84,9 +84,9 @@ export const skills_list = [
   },
   {
     id: 12,
-    name: "GIT",
+    name: "Figma",
     img: skill_12,
-    link: "https://git-scm.com/",
+    link: "https://figma.com/",
   },
   {
     id: 13,
@@ -96,20 +96,14 @@ export const skills_list = [
   },
   {
     id: 14,
-    name: "Adobe Photoshop",
+    name: "SASS",
     img: skill_14,
-    link: "https://www.adobe.com/ru/products/photoshop.html",
+    link: "https://sass-lang.com/",
   },
   {
     id: 15,
-    name: "Stytled Components",
+    name: "jQuery",
     img: skill_15,
-    link: "https://styled-components.com/",
-  },
-  {
-    id: 16,
-    name: "jQuerry",
-    img: skill_16,
     link: "https://jqueryui.com/",
   }
 ]

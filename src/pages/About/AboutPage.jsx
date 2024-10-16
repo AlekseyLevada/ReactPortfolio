@@ -89,7 +89,7 @@ export const AboutPage = () => {
         </div>
 
         <h2 className='_customer-subtitle _customer-about-page__subtitle'>
-          Стек технологий
+          Фреймворки и библиотеки
         </h2>
 
         <div className="_customer-skils__grid">
@@ -97,7 +97,7 @@ export const AboutPage = () => {
             skills_list.map(skill => {
               return (
                 <div className="_customer-skill__grid-item" key={skill.id}>
-                  <Link to={skill.link} target='_blank'>
+                  <Link to={skill.link}>
                     <p>
                       {skill.name}
                     </p>
