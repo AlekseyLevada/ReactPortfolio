@@ -27,7 +27,7 @@ export const PortfolioPage = () => {
         <PortfolioWorks />
         <div className="_customer-btns">
           <AppBtn link="/about" text="Назад" />
-          <AppBtn link="/portfolio" text="Далее" />
+          <AppBtn link="/portfolio" text="Далее"/>
         </div>
       </main>
     </section>
