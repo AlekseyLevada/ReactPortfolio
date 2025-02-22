@@ -10,7 +10,7 @@ export const IntroText = () => {
         PORTFOLIO
       </h1>
       <p>
-      Frontent & Web developer
+      Frontend & Web developer
       </p>
     </div>
   )

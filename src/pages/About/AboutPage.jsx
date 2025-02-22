@@ -34,13 +34,13 @@ export const AboutPage = () => {
             Я Левада Алексей&nbsp;- Frontend разработчик. Живу в&nbsp;Москве. Мне&nbsp;- 35 лет.
           </p>
           <p>
-            В&nbsp;2015&nbsp;году заинтересовался Web(ом) и своим первым - "Hello World".
+            В&nbsp;2015&nbsp;году заинтересовался Web(ом) и своим первым - "Hello&nbsp;World".
           </p>
           <p>
             Почему Frontend? Обожаю видеть результат своей работы!
           </p>
           <p>
-            Все начиналось с HTML и CSS3. Верстал блоки, изучал поведение элементов. После,  переключился на реальные макеты. Далее от статики решил перейти к интерактиву. Тут нужен JS, смотрел ролики на Youtube, читал литературу. Одним из основных был <a href="https://learn.javascript.ru/" target="_blanc">Learn&nbsp;JavaScript</a>.
+            Все начиналось с HTML и CSS3. Верстал блоки, изучал поведение элементов. После,  переключился на реальные макеты. Далее от статики решил перейти к интерактиву. Тут нужен JS, смотрел ролики на Youtube, читал литературу. Одним из основных был <a href="https://learn.javascript.ru/" target="_blank">Learn&nbsp;JavaScript</a>.
           </p>
           <p>
             Проходил разные бесплатные курсы по программированию, связанные с HTML, CSS3, Java Script.
@@ -101,7 +101,7 @@ export const AboutPage = () => {
                     <p>
                       {skill.name}
                     </p>
-                    <img src={skill.img} alt="" loading='lazy' draggable="false"/>
+                    <img src={skill.img} alt="" loading='lazy' draggable="false" />
                   </Link>
                 </div>
               )
@@ -172,7 +172,7 @@ export const AboutPage = () => {
           «CodeIT» Сентябрь&nbsp;2016г. — июнь&nbsp;2018&nbsp;г.
         </h3>
         <h4 className='_customer-suptitle--sm _customer-about-page__suptitle--sm'>
-          Front End разработчик:
+          Frontend разработчик:
         </h4>
         <h4 className='_customer-suptitle--sm _customer-about-page__suptitle--sm'>
           Обязанности
@@ -214,7 +214,7 @@ export const AboutPage = () => {
           Портал «Пульс Цен» Май 2023г. — текущее время.
         </h3>
         <h4 className='_customer-suptitle--sm _customer-about-page__suptitle--sm'>
-          Front End разработчик
+          Frontend разработчик
         </h4>
         <h4 className='_customer-suptitle--sm _customer-about-page__suptitle--sm'>
           Обязанности
