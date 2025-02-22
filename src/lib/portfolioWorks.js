@@ -7,6 +7,7 @@ import preview_6 from '../img/portfolio_peviews/preview_6.avif'
 import preview_7 from '../img/portfolio_peviews/preview_7.avif'
 import preview_8 from '../img/portfolio_peviews/preview_8.avif'
 import preview_9 from '../img/portfolio_peviews/preview_9.avif'
+import preview_10 from '../img/portfolio_peviews/preview_10.avif'
 
 export const portfolioWorks = [
   {
@@ -79,6 +80,14 @@ export const portfolioWorks = [
     workPreview: preview_9,
     workSkills: "Нативный JavaScript",
     workLink: "https://alekseylevada.github.io/JavaScript-To-Do-List/"
+  },
+
+  {
+    id: 10,
+    workTitle: "React To Do List",
+    workPreview: preview_10,
+    workSkills: "React TS Vite",
+    workLink: "https://alekseylevada.github.io/To-Do_List-TS-React-Vite-/"
   },
 
 ]
