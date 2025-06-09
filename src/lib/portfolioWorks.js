@@ -8,6 +8,7 @@ import preview_7 from '../img/portfolio_peviews/preview_7.avif'
 import preview_8 from '../img/portfolio_peviews/preview_8.avif'
 import preview_9 from '../img/portfolio_peviews/preview_9.avif'
 import preview_10 from '../img/portfolio_peviews/preview_10.avif'
+import preview_11 from '../img/portfolio_peviews/preview_11.avif'
 
 export const portfolioWorks = [
   {
@@ -88,6 +89,14 @@ export const portfolioWorks = [
     workPreview: preview_10,
     workSkills: "React TS Vite",
     workLink: "https://alekseylevada.github.io/To-Do_List-TS-React-Vite-/"
+  },
+
+  {
+    id: 11,
+    workTitle: "NDM Test Task",
+    workPreview: preview_11,
+    workSkills: "React TS RxJs ip-Address",
+    workLink: "https://alekseylevada.github.io/NDM-Test-Task/"
   },
 
 ]
