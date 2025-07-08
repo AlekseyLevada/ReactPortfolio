@@ -9,6 +9,7 @@ import preview_8 from '../img/portfolio_peviews/preview_8.avif'
 import preview_9 from '../img/portfolio_peviews/preview_9.avif'
 import preview_10 from '../img/portfolio_peviews/preview_10.avif'
 import preview_11 from '../img/portfolio_peviews/preview_11.avif'
+import preview_12 from '../img/portfolio_peviews/preview_12.avif'
 
 export const portfolioWorks = [
   {
@@ -99,4 +100,11 @@ export const portfolioWorks = [
     workLink: "https://alekseylevada.github.io/NDM-Test-Task/"
   },
 
+  {
+    id: 12,
+    workTitle: "TensorFlow Sidebar",
+    workPreview: preview_12,
+    workSkills: "React Vite Styled-Componets",
+    workLink: "https://alekseylevada.github.io/Frontend-HTML-task/"
+  },
 ]
