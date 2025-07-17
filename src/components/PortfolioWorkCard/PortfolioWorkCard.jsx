@@ -9,7 +9,7 @@ export const PortfolioWorkCard = (props) => {
           {props.title}
         </div>
         <div className="_customer-portfolio-work-card-preview">
-          <img src={props.preview} alt="" draggable="false"loading='lazy'/>
+          <img src={props.preview} alt="" draggable="false"loading='lazy' width="389" height="235"/>
         </div>
         <div className="_customer-portfolio-work-card-skills">
           {props.skills}
