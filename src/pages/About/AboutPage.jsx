@@ -101,7 +101,7 @@ export const AboutPage = () => {
                     <p>
                       {skill.name}
                     </p>
-                    <img src={skill.img} alt="" loading='lazy' draggable="false" />
+                    <img src={skill.img} alt="" loading='lazy' draggable="false" width="100" height="100" />
                   </Link>
                 </div>
               )
@@ -249,7 +249,7 @@ export const AboutPage = () => {
           Тут ты можешь скачать и&nbsp;распечатать мое резюме
         </h2>
         <div className="_customer-resume__file">
-          <Link onClick={() => { downloadFile(cvUrl) }} Link><img src={myCvImg} loading='lazy' title="Резюме" alt="Резюме" /></Link>
+          <Link onClick={() => { downloadFile(cvUrl) }} Link><img src={myCvImg} loading='lazy' title="Резюме" alt="Резюме" width="100" height="100"/></Link>
         </div>
         <div className="_customer-btns">
           <AppBtn link="/" text="Назад" />
