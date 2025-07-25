@@ -13,14 +13,4 @@ export const menuItems = [
     name: "Мои работы",
     link: "/portfolio"
   },
-
-  // {
-  //   name: "Отзывы",
-  //   link: "/reviews"
-  // },
-
-  // {
-  //   name: "Контакты",
-  //   link: "/contacts"
-  // }
 ]

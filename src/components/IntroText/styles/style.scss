@@ -8,19 +8,25 @@ margin: auto;
 width: fit-content;
 height: fit-content;
 text-align: center;
+z-index: 2;
+
 h1 {
   display: inline;
   font: 700 100px/116px "Montserrat", sans-serif;
   &:first-of-type {
-    color: #000;
+    color: #fff;
     margin-right:30px;
+    text-shadow: 3px 3px 3px #221f1f;
   }
   &:last-of-type {
     color: #754EF9;
+    text-shadow: 3px 3px 3px #221f1f;
   }
 }
 p {
   font: 600 25px/33px "Montserrat", sans-serif;
   text-align: center;
+  color: #fff;
+  text-shadow: 3px 3px 3px #221f1f;
 }
 }

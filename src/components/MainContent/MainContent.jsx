@@ -11,9 +11,12 @@ export const MainContent = () => {
           loop
           muted
           playsInline
+          width="1920"
+          height="1437"
+          poster="/ReactPortfolio/poster/poster_bg.webp"
         >
-          <source src="/videos/bg_video.mp4" type="video/mp4" />
-          <source src="/videos/bg_video.webm" type="video/webm" />
+          <source src="/ReactPortfolio/videos/bg_video.mp4" type="video/mp4" />
+          <source src="/ReactPortfolio/videos/bg_video.webm" type="video/webm" />
           Ваш браузер не поддерживает видео.
         </video>
       </div>
