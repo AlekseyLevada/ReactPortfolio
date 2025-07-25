@@ -36,10 +36,14 @@
   align-items: center;
   border-radius: 10px;
   overflow: hidden;
+  width: 100%;
+  max-width: 385px;
 
   img {
     width: 100%;
     max-width: 100%;
+    height: auto;
+    object-fit: cover;
     border: 2px solid #754EF9;
     border-radius: 10px;
   }

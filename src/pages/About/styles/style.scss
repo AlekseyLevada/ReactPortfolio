@@ -13,25 +13,16 @@
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
   margin-bottom: 30px;
+  align-content: center;
 }
 
 ._customer-skill__grid-item {
-  cursor: pointer;
-  display: flex;
-  gap: 10px;
-  flex-direction: column-reverse;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-
   a {
     display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     gap: 10px;
+    align-items: center;
     text-decoration: none;
-    width: 100%;
 
     p {
       font-style: normal;
@@ -39,8 +30,9 @@
   }
 
   img {
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    max-width: 100px;
+    height: auto;
     transition: .1s ease-in-out;
   }
 
