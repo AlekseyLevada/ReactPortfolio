@@ -12,8 +12,8 @@ export const MainContent = () => {
           muted
           playsInline
         >
-          <source src="http://localhost:5173/ReactPortfolio/videos/bg_video.mp4" type="video/mp4" />
-          <source src="http://localhost:5173/ReactPortfolio/videos/bg_video.webm" type="video/webm" />
+          <source src="/videos/bg_video.mp4" type="video/mp4" />
+          <source src="/videos/bg_video.webm" type="video/webm" />
           Ваш браузер не поддерживает видео.
         </video>
       </div>
