@@ -3,22 +3,12 @@
     font-size: 80px;
     line-height: 1.2;
   }
-
-  ._customer-circles {
-    width: 420px;
-    height: 420px;
-  }
 }
 
 @media screen and (max-width: 1200px) {
   ._customer-intro-text h1 {
     font-size: 60px;
     line-height: 1.2;
-  }
-
-  ._customer-circles {
-    width: 320px;
-    height: 320px;
   }
 }
 
@@ -46,7 +36,7 @@
   }
 
   ._customer-sidebar__contacts ul {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   ._customer-sidebar__contacts ul li {
@@ -174,11 +164,11 @@
   }
 
   ._customer-intro-text h1 {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   ._customer-intro-text p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.2;
   }
 

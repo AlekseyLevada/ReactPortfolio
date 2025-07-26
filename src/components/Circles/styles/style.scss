@@ -1,10 +1,10 @@
 ._customer-circles {
   position: absolute;
+  width: 100%;
+  max-width: 460px;
   z-index: 2;
   top: 50%;
   transform: translateY(-50%);
-  width: 100%;
-  max-width: 520px;
   border-radius: 50%;
   background: #754EF9;
   display: flex;
@@ -12,9 +12,6 @@
   align-items: center;
 
   img {
-    width: 100%;
-    max-width: 100%;
     height: auto;
-    object-fit: cover;
   }
 }
