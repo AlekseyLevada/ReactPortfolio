@@ -7,6 +7,7 @@ import darstroy_preview from '../img/portfolio_peviews/preview_darstroy.avif'
 import akum_preview from '../img/portfolio_peviews/preview_akum.avif'
 import skala_preview from '../img/portfolio_peviews/preview_skala.avif'
 import preview_xxl from '../img/portfolio_peviews/preview_xxl.avif'
+import preview_la_boheme_cafe from '../img/portfolio_peviews/preview_la_boheme_cafe.avif'
 
 export const portfolioWorks = [
   {
@@ -79,5 +80,13 @@ export const portfolioWorks = [
     workPreview: preview_xxl,
     workSkills: "React CSS Modules Vite",
     workLink: "https://www.xxl.fi/"
-  }
+  },
+
+  {
+    id: "54728s72-8e04-43c5-8904-15b2d77a4f4e",
+    workTitle: "La Boheme Cafe",
+    workPreview: preview_la_boheme_cafe,
+    workSkills: "html css js swiper php",
+    workLink: "https://labohemecafe.cz/"
+  },
 ]
