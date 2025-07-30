@@ -8,6 +8,7 @@ import akum_preview from '../img/portfolio_peviews/preview_akum.avif'
 import skala_preview from '../img/portfolio_peviews/preview_skala.avif'
 import preview_xxl from '../img/portfolio_peviews/preview_xxl.avif'
 import preview_la_boheme_cafe from '../img/portfolio_peviews/preview_la_boheme_cafe.avif'
+import preview_metall_profile from '../img/portfolio_peviews/preview_metall_profile.avif'
 
 export const portfolioWorks = [
   {
@@ -88,5 +89,13 @@ export const portfolioWorks = [
     workPreview: preview_la_boheme_cafe,
     workSkills: "html css js swiper php",
     workLink: "https://labohemecafe.cz/"
+  },
+
+  {
+    id: "6cс22a5t-dc6d-47e9-9fd1-ecdb29ea8b42",
+    workTitle: "Металл Профиль",
+    workPreview: preview_metall_profile,
+    workSkills: "html css js swiper php",
+    workLink: "https://metallprofil.ru/"
   },
 ]
