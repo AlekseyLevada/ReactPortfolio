@@ -1,13 +1,11 @@
-import './styles/style.scss'
+import styles from './styles/sidebarLogo.module.scss'
 import { Link } from 'react-router-dom'
 
 export const SidebarLogo = () => {
   return (
-    <div className='_customer-sidebar__logo'>
+    <div className={styles.sidebarLogo}>
       <Link to="/">
-        <h1>
-          Portfolio
-        </h1>
+        <h1>Portfolio</h1>
       </Link>
     </div>
   )

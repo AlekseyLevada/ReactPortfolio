@@ -1,11 +1,11 @@
-import './styles/style.scss'
+import styles from './styles/mainContent.module.scss'
 import { IntroText } from '../IntroText/IntroText'
 import { AppBtn } from '../AppBtn/AppBtn'
 
 export const MainContent = () => {
   return (
-    <section className='_customer-main-content'>
-      <div className="video-background">
+    <section className={styles.mainContent}>
+      <div className={styles.videoBackground}>
         <video
           autoPlay
           loop
@@ -21,7 +21,7 @@ export const MainContent = () => {
         </video>
       </div>
       <IntroText />
-      <AppBtn link="/about" text="Вперед" />
+      <AppBtn className={styles.appBtn} link="/about" text="Вперед" />
     </section>
   )
 }

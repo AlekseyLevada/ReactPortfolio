@@ -20,7 +20,7 @@
   }
 }
 
-._customer-sidebar__logo {
+.sidebarLogo {
   width: fit-content;
   text-align: center;
   cursor: pointer;
@@ -58,5 +58,20 @@
         background: #d42c2c;
       }
     }
+  }
+}
+
+@media screen and (max-width: 978px) {
+  .sidebarLogo {
+    writing-mode: vertical-rl;
+
+    h1 {
+      margin-bottom: 0;
+    }
+  }
+
+  .sidebarLogo h1::before {
+    top: 100%;
+    right: 0;
   }
 }

@@ -1,8 +1,8 @@
-import './styles/style.scss'
+import styles from './styles/sidebarContacts.module.scss'
 
 export const SidebarContacts = () => {
   return (
-    <div className='_customer-sidebar__contacts'>
+    <div className={styles.sidebarContacts}>
       <div>
         <p>
           contact me:

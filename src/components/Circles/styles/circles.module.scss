@@ -1,4 +1,4 @@
-._customer-circles {
+.circles {
   position: absolute;
   width: 100%;
   max-width: 460px;
@@ -13,5 +13,11 @@
 
   img {
     height: auto;
+  }
+}
+
+@media screen and (max-width:978px) {
+  .circles {
+    display: none;
   }
 }

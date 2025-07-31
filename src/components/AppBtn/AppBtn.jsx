@@ -1,11 +1,10 @@
-import './styles/style.scss'
-
+import styles from './styles/appBtn.module.scss'
 import { Link } from 'react-router-dom'
 
-export const AppBtn = (props) => {
-  return(
+export const AppBtn = ({ link = "/", text = "Кнопка", className }) => {
+  return (
     <>
-    <Link className="_customer-btn" to={props.link}>{props.text}</Link>
+      <Link className={`${styles.appBtn} ${className}`} to={link}>{text}</Link>
     </>
   )
 }

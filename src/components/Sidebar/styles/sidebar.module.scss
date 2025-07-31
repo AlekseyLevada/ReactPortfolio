@@ -1,8 +1,14 @@
-._customer-sidebar {
+.sidebar {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   position: relative;
   background: #754EF9;
   padding: 30px 10px;
+}
+
+@media screen and (max-width:978px) {
+  .sidebar {
+    padding: 20px 10px;
+  }
 }

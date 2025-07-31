@@ -1,0 +1,19 @@
+.mainLayout {
+  display: grid;
+  grid-template-columns: minmax(auto, 460px) 1fr;
+  height: 100vh;
+}
+
+@media screen and (max-width:978px) {
+  .mainLayout {
+    display: grid;
+    grid-template-columns: minmax(auto, 140px) 1fr;
+    min-height: 100vh;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .mainLayout {
+    grid-template-columns: minmax(auto, 61px) 1fr;
+  }
+}
