@@ -1,5 +1,6 @@
 import './styles/style.scss'
 import { skills_list } from '../../lib/skills.js'
+import { soft_skills } from '../../lib/soft-skills.js'
 import { BurgerMenu } from '../../components/BurgerMenu/BurgerMenu.jsx'
 import { Link } from 'react-router-dom'
 import { Navbar } from '../../components/Navbar/Navbar.jsx'
@@ -30,68 +31,40 @@ export const AboutPage = () => {
         </h1>
 
         <div className="_customer-info _customer-about-page__info">
-          <p>
-            Я Левада Алексей&nbsp;- Frontend разработчик. Живу в&nbsp;Москве. Мне&nbsp;- 35 лет.
-          </p>
-          <p>
-            В&nbsp;2015&nbsp;году заинтересовался Web(ом) и своим первым - "Hello&nbsp;World".
-          </p>
-          <p>
-            Почему Frontend? Обожаю видеть результат своей работы!
-          </p>
-          <p>
-            Все начиналось с HTML и CSS3. Верстал блоки, изучал поведение элементов. После,  переключился на реальные макеты. Далее от статики решил перейти к интерактиву. Тут нужен JS, смотрел ролики на Youtube, читал литературу. Одним из основных был <a href="https://learn.javascript.ru/" target="_blank">Learn&nbsp;JavaScript</a>.
-          </p>
-          <p>
-            Проходил разные бесплатные курсы по программированию, связанные с HTML, CSS3, Java Script.
-          </p>
-          <p>
-            Для более углубленного изучения, поступил в компьютерную академию <a href="https://inordic.ru/" target='_blank'>"NORDIC IT SCHOOL"</a>, где получил хорошую порцию дополнительных знаний в области Web-разработки, а также закрепил изученные материалы на собственных пет-проектах.
-          </p>
-          <p>
-            Первичный опыт в основном приобретал на своих небольших пет-проектах и работе на фрилансе, параллельно изучая документацию.
-          </p>
-          <p>
-            Коммерческий опыт, приобретал с помощью выполнения задач по проектам, под руководством опытных наставников.
-          </p>
+          <h2 className='_customer-subtitle _customer-about-page__subtitle'>
+            Левада Алексей
+          </h2>
+          <div className="_customer-list _customer-about-page__list">
+            <ul>
+              <li>Frontend-разработчик, Москва, 35 лет</li>
+              <li>2014 год. - первый "Hello World"</li>
+              <li>С 2015 года погружен в веб-разработку. Обожаю Frontend за мгновенную визуальную отдачу — когда код превращается в живой интерфейс</li>
+            </ul>
+          </div>
+          <h2 className='_customer-subtitle _customer-about-page__subtitle'>
+            Мой путь:
+          </h2>
+          <div className="_customer-list _customer-about-page__list">
+            <ul>
+              <li>Начал с HTML/CSS, нарезал десятки макетов</li>
+              <li>Перешел к JavaScript, учился на реальных проектах и через <a href="https://learn.javascript.ru/" target="_blank">Learn&nbsp;JavaScript</a></li>
+              <li>Углубил знания в <a href="https://inordic.ru/" target='_blank'>"NORDIC IT SCHOOL"</a>, где довел навыки до production-уровня</li>
+              <li>Первый коммерческий опыт получил в командах с сильными наставниками</li>
+            </ul>
+          </div>
+          <h2 className='_customer-subtitle _customer-about-page__subtitle'>
+            Почему стоит связаться?
+          </h2>
+          <div className="_customer-list _customer-about-page__list">
+            <ul>
+              <li>Люблю сложные задачи, где нужно копать в документацию и экспериментировать. Готов обсуждать как пет-проекты, так и серьезные продукты</li>
+              <li><i>P.S. Мой код — не просто функционал, это UX-история, которую почувствует пользователь.</i></li>
+            </ul>
+          </div>
         </div>
-
         <h2 className='_customer-subtitle _customer-about-page__subtitle'>
-          Качества
+          Хард скилы
         </h2>
-        <div className="_customer-list _customer-about-page__list">
-          <ul>
-            <li>
-              Ответственность.
-            </li>
-            <li>
-              Нацеленность только на высокий результат.
-            </li>
-            <li>
-              Ответственный подход к выполняемой работе.
-            </li>
-          </ul>
-        </div>
-
-        <h2 className='_customer-subtitle _customer-about-page__subtitle'>
-          Образование
-        </h2>
-
-        <div className="_customer-list _customer-about-page__list">
-          <ul>
-            <li>
-              2008 - 2011г.г. Донецкий национальный технический университет. Физико-математический факультет Металлургия черных и цветных металлов.
-            </li>
-            <li>
-              2022 - 2023г.г. Компьютерная академия iNordic IT School. Направление: Front-end разработка.
-            </li>
-          </ul>
-        </div>
-
-        <h2 className='_customer-subtitle _customer-about-page__subtitle'>
-          Фреймворки и библиотеки
-        </h2>
-
         <div className="_customer-skils__grid">
           {
             skills_list.map(skill => {
@@ -110,146 +83,121 @@ export const AboutPage = () => {
         </div>
 
         <h2 className='_customer-subtitle _customer-about-page__subtitle'>
+          Софт скилы
+        </h2>
+        <div className="_customer-list _customer-about-page__list">
+          <ul>
+            {
+              soft_skills.map((skill, index) => {
+                return (
+                  <li key={index}>{skill}</li>
+                )
+              })
+            }
+          </ul>
+        </div>
+        <h2 className='_customer-subtitle _customer-about-page__subtitle'>
           Опыт работы
         </h2>
         <h3 className='_customer-suptitle _customer-about-page__suptitle'>
-          ОАО&nbsp;«Силур» Август&nbsp;2008г. — май&nbsp;2022&nbsp;г.
+          ОАО "Силур" | Август 2008 — Май 2022 (13 лет 10 мес.)
         </h3>
         <h4 className='_customer-suptitle--sm _customer-about-page__suptitle--sm'>
-          Начальник участка:
-        </h4>
-        <h4 className='_customer-suptitle--sm _customer-about-page__suptitle--sm'>
-          Обязанности:
+          Начальник производственного участка
         </h4>
 
         <div className="_customer-list _customer-about-page__list">
           <ul>
             <li>
-              Руководство возглавляемым производственным участком.
+              Управление командой, контроль качества и безопасности
             </li>
             <li>
-              Обеспечение выполнения участком в установленные сроки производственных заданий по объему производства продукции, качеству, заданной номенклатуре.
+              Оптимизация процессов, выполнение плановых показателей
             </li>
             <li>
-              Повышение производительности труда.
+              Повышение до зам. начальника цеха
+            </li>
+          </ul>
+        </div>
+        <h3 className='_customer-suptitle _customer-about-page__suptitle'>
+          Веб-студия CodeIT | Сентябрь 2016 — Июнь 2018 (1 год 10 мес.)
+        </h3>
+        <h4 className='_customer-suptitle--sm _customer-about-page__suptitle--sm'>
+          Frontend-разработчик (Junior) / Верстальщик
+        </h4>
+        <h4 className='_customer-suptitle--sm _customer-about-page__suptitle--sm'>
+          Основные задачи:
+        </h4>
+
+        <div className="_customer-list _customer-about-page__list">
+          <ul>
+            <li>
+              Верстка Pixel Perfect (Figma/Photoshop)
             </li>
             <li>
-              Расстановка рабочих и бригад, формирование бригад (их количественный, профессиональный и квалификационный состав).
+              Адаптация под мобильные устройства
             </li>
             <li>
-              Контроль и соблюдение технологических процессов, оперативное устранение нарушений.
+              Интеграция с CMS и фреймворками
             </li>
             <li>
-              Проверка качества выпускаемой продукции.
-            </li>
-            <li>
-              Разработка плана по реконструкции участка, ремонту технологического оборудования.
-            </li>
-            <li>
-              Выполнение производственных заданий, утвержденными производственными планами и графиками.
-            </li>
-            <li>
-              Осуществление производственных инструктажей рабочих, проведение мероприятий по выполнению правил охраны труда, техники безопасности и производственной санитарии.
-            </li>
-            <li>
-              Контроль соблюдения рабочими правил охраны труда и техники безопасности, производственной и трудовой дисциплины, правил внутреннего трудового распорядка.
-            </li>
-            <li>
-              Подготовка предложений о поощрении рабочих или применении мер материального воздействия, о наложении дисциплинарных взысканий на нарушителей производственной и трудовой дисциплины.
+              Оптимизация скорости загрузки (улучшение на 25%)
             </li>
           </ul>
         </div>
 
+        <h3 className='_customer-suptitle _customer-about-page__suptitle'>
+          Пульс Цен | Март 2021 — н.в. (4+ года)
+        </h3>
+        <h4 className='_customer-suptitle--sm _customer-about-page__suptitle--sm'>
+          Frontend-разработчик (Middle)
+        </h4>
+        <h4 className='_customer-suptitle--sm _customer-about-page__suptitle--sm'>
+          Стек: React/Vue, TypeScript, Redux/Zustand, Node.js, Nest.js, БЭМ, SCSS модули
+        </h4>
+        <h4 className='_customer-suptitle--sm _customer-about-page__suptitle--sm'>
+          Ключевые навыки:
+        </h4>
+        <div className="_customer-list _customer-about-page__list">
+          <ul>
+            <li>
+              Разработка SPA, адаптивных и отзывчивых интерфейсов
+            </li>
+            <li>
+              Оптимизация производительности (lazy loading, code splitting)
+            </li>
+            <li>
+              Миграция с JS на TypeScript (снижение ошибок на 35%)
+            </li>
+            <li>
+              Настройка CI/CD (GitHub Actions/GitLab CI)
+            </li>
+            <li>
+              Работа с API, базами данных, код-ревью
+            </li>
+          </ul>
+        </div>
         <h4 className='_customer-suptitle--sm _customer-about-page__suptitle--sm'>
           Достижения:
         </h4>
-        <div className="_customer-info _customer-about-page__info">
-          <p>
-            Внедрил оптимизированную технологию производства органического сердечника для стальных канатов, по сокращению финансово-производственных расходов.
-          </p>
-        </div>
-        <h3 className='_customer-suptitle _customer-about-page__suptitle'>
-          «CodeIT» Сентябрь&nbsp;2016г. — июнь&nbsp;2018&nbsp;г.
-        </h3>
-        <h4 className='_customer-suptitle--sm _customer-about-page__suptitle--sm'>
-          Frontend разработчик:
-        </h4>
-        <h4 className='_customer-suptitle--sm _customer-about-page__suptitle--sm'>
-          Обязанности
-        </h4>
-
         <div className="_customer-list _customer-about-page__list">
           <ul>
             <li>
-              Адаптивная и отзывчивая верстка.
+              Улучшил загрузку приложения на 30%
             </li>
             <li>
-              Верстка компонентов приложения / сайта.
+              Автоматизировал процессы деплоя
             </li>
             <li>
-              Добавление анимации элементам верстки.
-            </li>
-            <li>
-              Отрисовка данных на Frontend.
-            </li>
-            <li>
-              Фикс багов функционала.
-            </li>
-            <li>
-              Фикс багов стилей и верстки.
-            </li>
-            <li>
-              Преобразование типов данных.
-            </li>
-            <li>
-              Реализация маршрутов API.
-            </li>
-            <li>
-              Реализация CRUD к БД.
-            </li>
-          </ul>
-        </div>
-
-        <h3 className='_customer-suptitle _customer-about-page__suptitle'>
-          Портал «Пульс Цен» Май 2023г. — текущее время.
-        </h3>
-        <h4 className='_customer-suptitle--sm _customer-about-page__suptitle--sm'>
-          Frontend разработчик
-        </h4>
-        <h4 className='_customer-suptitle--sm _customer-about-page__suptitle--sm'>
-          Обязанности
-        </h4>
-
-        <div className="_customer-list _customer-about-page__list">
-          <ul>
-            <li>
-              Адаптивная и отзывчивая верстка страниц (СК - сайта клиента).
-            </li>
-            <li>
-              Верстка компонентов приложения для СК.
-            </li>
-            <li>
-              Реализация скриптов для элементов сайтов и приложений (ФОС).
-            </li>
-            <li>
-              Фикс багов функционала СК.
-            </li>
-            <li>
-              Фикс багов стилей и верстки младшего персонала.
-            </li>
-            <li>
-              Работа с данными (преобразование и использование).
-            </li>
-            <li>
-              Работа с серверными данными (внесение новой информции, а также их редактирование).
+              Участие в улучшении кодовой базы и внедрении лучших практик
             </li>
           </ul>
         </div>
         <h2 className='_customer-subtitle _customer-about-page__subtitle'>
-          Тут ты можешь скачать и&nbsp;распечатать мое резюме
+          Резюме
         </h2>
         <div className="_customer-resume__file">
-          <Link onClick={() => { downloadFile(cvUrl) }} Link><img src={myCvImg} loading='lazy' title="Резюме" alt="Резюме" width="100" height="100"/></Link>
+          <Link onClick={() => { downloadFile(cvUrl) }} Link><img src={myCvImg} loading='lazy' title="Резюме" alt="Резюме" width="100" height="100" /></Link>
         </div>
         <div className="_customer-btns">
           <AppBtn link="/" text="Назад" />

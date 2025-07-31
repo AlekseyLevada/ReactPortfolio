@@ -1,109 +1,59 @@
-import skill_1 from '../img/skills_icons/skill_1.png'
-import skill_2 from '../img/skills_icons/skill_2.png'
-import skill_3 from '../img/skills_icons/skill_3.png'
-import skill_4 from '../img/skills_icons/skill_4.png'
-import skill_5 from '../img/skills_icons/skill_5.png'
-import skill_6 from '../img/skills_icons/skill_6.png'
-import skill_7 from '../img/skills_icons/skill_7.png'
-import skill_8 from '../img/skills_icons/skill_8.png'
-import skill_9 from '../img/skills_icons/skill_9.png'
-import skill_10 from '../img/skills_icons/skill_10.png'
-import skill_11 from '../img/skills_icons/skill_11.png'
-import skill_12 from '../img/skills_icons/skill_12.png'
-import skill_13 from '../img/skills_icons/skill_13.png'
-import skill_14 from '../img/skills_icons/skill_14.png'
-import skill_15 from '../img/skills_icons/skill_15.png'
-
+import skill_html from '../img/skills_icons/skill_html.png'
+import skill_css from '../img/skills_icons/skill_css.png'
+import skill_js from '../img/skills_icons/skill_js.png'
+import skill_ts from '../img/skills_icons/skill_ts.png'
+import skill_react from '../img/skills_icons/skill_react.png'
+import skill_vue from '../img/skills_icons/skill_vue.png'
+import skill_nest from '../img/skills_icons/skill_nest.png'
+import skill_node from '../img/skills_icons/skill_node.png'
 
 export const skills_list = [
   {
     id: 1,
     name: "HTML",
-    img: skill_1,
+    img: skill_html,
     link: "https://html5book.ru/html-html5/",
   },
   {
     id: 2,
     name: "CSS3",
-    img: skill_2,
+    img: skill_css,
     link: "https://html5book.ru/css-css3/",
   },
   {
     id: 3,
     name: "Java Script",
-    img: skill_3,
+    img: skill_js,
     link: "https://learn.javascript.ru/",
   },
   {
     id: 4,
     name: "TypeScript",
-    img: skill_4,
+    img: skill_ts,
     link: "https://www.typescriptlang.org/",
   },
   {
     id: 5,
     name: "REACT",
-    img: skill_5,
+    img: skill_react,
     link: "https://ru.legacy.reactjs.org/",
   },
   {
     id: 6,
     name: "Vue.js",
-    img: skill_6,
+    img: skill_vue,
     link: "https://vuejs.org/",
   },
   {
     id: 7,
     name: "Node.js",
-    img: skill_7,
+    img: skill_node,
     link: "https://nodejs.org/en",
   },
   {
     id: 8,
-    name: "Redux Toolkit",
-    img: skill_8,
-    link: "https://redux-toolkit.js.org/",
+    name: "Nest.js",
+    img: skill_nest,
+    link: "https://nestjs.com/",
   },
-  {
-    id: 9,
-    name: "GIT",
-    img: skill_9,
-    link: "https://git-scm.com/",
-  },
-  {
-    id: 10,
-    name: "MySQL",
-    img: skill_10,
-    link: "https://www.mysql.com/",
-  },
-  {
-    id: 11,
-    name: "Express.js",
-    img: skill_11,
-    link: "https://expressjs.com/ru/",
-  },
-  {
-    id: 12,
-    name: "Figma",
-    img: skill_12,
-    link: "https://figma.com/",
-  },
-  {
-    id: 13,
-    name: "REST API",
-    img: skill_13,
-    link: "https://api.sampleapis.com/",
-  },
-  {
-    id: 14,
-    name: "SASS",
-    img: skill_14,
-    link: "https://sass-lang.com/",
-  },
-  {
-    id: 15,
-    name: "jQuery",
-    img: skill_15,
-    link: "https://jqueryui.com/",
-  }
 ]

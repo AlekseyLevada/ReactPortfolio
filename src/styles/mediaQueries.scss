@@ -57,10 +57,6 @@
     right: 0;
   }
 
-  ._customer-skils__grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-
   ._customer-title {
     font-size: 22px;
     margin-bottom: 20px;
@@ -174,10 +170,6 @@
 
   ._customer-main-content ._customer-btn {
     width: 220px;
-  }
-
-  ._customer-skils__grid {
-    grid-template-columns: repeat(3, 1fr);
   }
 }
 
