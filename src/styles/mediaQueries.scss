@@ -1,73 +1,4 @@
-@media screen and (max-width:978px) {
-
-  ._customer-title {
-    font-size: 22px;
-    margin-bottom: 20px;
-  }
-
-  ._customer-subtitle {
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
-
-  ._customer-suptitle {
-    font-size: 18px;
-    margin-bottom: 20px;
-  }
-
-  ._customer-suptitle--sm {
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-
-  ._customer-list,
-  ._customer-info {
-    margin-bottom: 20px;
-  }
-
-  ._customer-title,
-  ._customer-subtitle,
-  ._customer-suptitle,
-  ._customer-suptitle--sm {
-    text-align: center;
-  }
-
-  ._customer-btns {
-    gap: 10px;
-  }
-
-  ._customer-btn {
-    padding: 10px 45px;
-  }
-
-  ._customer-resume__file {
-    width: fit-content;
-    margin: 0 auto 30px auto;
-  }
-
-  ._customer-info p,
-  ._customer-info a,
-  ._customer-list li,
-  ._customer-skill__grid-item p {
-    font-size: 12px;
-    line-height: 20px;
-  }
-
-  ._customer-list li {
-    margin-bottom: 5px;
-    padding-left: 30px;
-  }
-}
-
 @media screen and (max-width:767px) {
-
-  ._customer-about-page__container,
-  ._customer-portfolio-page__container,
-  ._customer-reviews-page__container,
-  ._customer-contacts-page__container {
-    padding: 40px 10px 30px;
-  }
-
   ._customer-navbar {
     width: 100%;
     right: 0;
@@ -93,13 +24,5 @@
     font-size: 18px;
     height: 52px;
     width: 60%;
-  }
-}
-
-@media screen and (max-width: 490px) {
-
-  ._customer-skils__grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
   }
 }

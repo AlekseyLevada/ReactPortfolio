@@ -1,11 +1,11 @@
-import './styles/style.scss'
+import styles from './styles/portfolio-works.module.scss'
 import { PortfolioWorkCard } from '../PortfolioWorkCard/PortfolioWorkCard'
 import { portfolioWorks } from '../../lib/portfolioWorks'
 
 export const PortfolioWorks = () => {
 
   return (
-    <ul className="_customer-portfolio__works">
+    <ul className={styles.portfolioWorks}>
       {
         portfolioWorks.map(work => {
           return (

@@ -1,0 +1,21 @@
+.infoText {
+  margin-bottom: 30px;
+
+  p {
+    font: 500 16px / 24px "Montserrat", sans-serif;
+    margin-bottom: 8px;
+    &:last-of-type {
+      margin-bottom: 0 !important;
+    }
+  }
+}
+
+@media screen and (max-width:978px) {
+  .infoText {
+    margin-bottom: 20px;
+    p {
+      font-size: 12px;
+      line-height: 1.5;
+    }
+  }
+}

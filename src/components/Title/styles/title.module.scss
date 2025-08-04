@@ -1,7 +1,18 @@
 .title {
+  margin-bottom: 30px;
+
   h1 {
     font: 500 32px/1.2 "Montserrat", sans-serif;
-  text-align: center;
-  margin-bottom: 30px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:978px) {
+  .title {
+    h1 {
+      font-size: 22px;
+      line-height: 1.5;
+    }
+    margin-bottom: 20px;
   }
 }

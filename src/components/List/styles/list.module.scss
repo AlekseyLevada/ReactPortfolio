@@ -1,0 +1,45 @@
+.list {
+  margin-bottom: 30px;
+
+  li {
+    font: 500 16px / 24px "Montserrat", sans-serif;
+    list-style: none !important;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 8px;
+
+    &:last-of-type {
+      margin-bottom: 0 !important;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+      width: 24px;
+      height: 24px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("data:image/svg+xml,%3csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='24' height='24' rx='4' fill='%23F5F3FF'/%3e%3cpath d='M8 7L5 12L8 17' stroke='%23754EF9' stroke-width='2' stroke-linecap='round'/%3e%3cpath d='M16 7L19 12L16 17' stroke='%23754EF9' stroke-width='2' stroke-linecap='round'/%3e%3cpath d='M13 5L11 19' stroke='%23754EF9' stroke-width='2' stroke-linecap='round'/%3e%3ccircle cx='12' cy='12' r='3' fill='white'/%3e%3c/svg%3e");
+    }
+  }
+}
+
+@media screen and (max-width:978px) {
+  .list {
+    margin-bottom: 20px;
+
+    li {
+      padding-left: 30px;
+    }
+
+    li,
+    a {
+      font-size: 12px;
+      line-height: 1.5;
+    }
+  }
+}

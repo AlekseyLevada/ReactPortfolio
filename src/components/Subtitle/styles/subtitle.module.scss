@@ -1,0 +1,16 @@
+.subtitle {
+  margin-bottom: 30px;
+  h2 {
+    font: 500 28px / 1.3 "Montserrat", sans-serif;
+  }
+}
+
+@media screen and (max-width:978px) {
+  .subtitle {
+    margin-bottom: 20px;
+    h2 {
+      font-size: 20px;
+      line-height: 1.5;
+    }
+  }
+}

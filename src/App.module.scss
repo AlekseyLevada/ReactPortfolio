@@ -2,3 +2,11 @@
   width: 100vw;
   height: 100vh;
 }
+
+a {
+  text-underline-offset: 3px;
+
+  &:hover {
+    text-decoration: none;
+  }
+}

@@ -1,15 +1,4 @@
-._customer-about-page {
-  background: rgba(117, 78, 249, 0.15);
-  position: relative;
-
-  ._customer-btn {
-    position: static;
-    transform: none;
-    font-style: normal;
-  }
-}
-
-._customer-skils__grid {
+.skillsGrid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
@@ -17,7 +6,9 @@
   align-content: center;
 }
 
-._customer-skill__grid-item {
+.skillGridItem {
+  list-style: none !important;
+
   a {
     display: flex;
     flex-direction: column-reverse;
@@ -46,8 +37,9 @@
   }
 }
 
-._customer-resume__file {
+.resumeFile {
   margin-bottom: 30px;
+  width: fit-content;
 
   img {
     width: 70px;
@@ -56,9 +48,40 @@
 
     &:hover {
       transition: .1s ease-in-out;
-      filter: drop-shadow(0 7px 3px #818181);
+      filter: drop-shadow(1px 1px 5px #818181);
       transform: scale(1.05);
       transition: .1s ease-in-out;
     }
+  }
+}
+
+.appBtns {
+  width: fit-content;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+}
+
+@media screen and (max-width:978px) {
+  .appBtns {
+    gap: 10px;
+  }
+
+  .resumeFile {
+    margin-bottom: 20px;
+  }
+
+  .skillGridItem {
+    a {
+      font-size: 12px;
+      line-height: 20px;
+      font-weight: 600;
+    }
+  }
+}
+
+@media screen and (max-width:480px) {
+  .skillsGrid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

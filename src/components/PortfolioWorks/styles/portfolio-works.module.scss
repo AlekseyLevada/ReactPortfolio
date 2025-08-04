@@ -1,0 +1,25 @@
+.portfolioWorks {
+  list-style: none;
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+@media screen and (max-width:960px) {
+  .portfolioWorks {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .portfolioWorks {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width:390px) {
+  .portfolioWorks {
+    grid-template-columns: 1fr;
+  }
+}

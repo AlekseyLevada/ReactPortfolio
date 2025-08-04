@@ -1,0 +1,18 @@
+.page {
+  background: #754ef926;
+  position: relative;
+}
+
+.container {
+  max-width: 1300px;
+  padding: 100px 10px 40px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+@media screen and (max-width:767px) {
+  .container {
+    padding: 40px 10px;
+  }
+}

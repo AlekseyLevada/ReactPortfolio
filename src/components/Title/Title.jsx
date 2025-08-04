@@ -1,10 +1,10 @@
 import styles from './styles/title.module.scss'
 
-export const Title = ({ title }) => {
+export const Title = ({ children}) => {
   return (
     <div className={styles.title}>
       <h1>
-        {title}
+        {children}
       </h1>
     </div>
   )

@@ -1,4 +1,4 @@
-._customer-portfolio-work-card {
+.portfolioWorkCard {
   position: relative;
   overflow: hidden;
   background: #f0f0f0;
@@ -13,7 +13,7 @@
   }
 }
 
-._customer-portfolio-work-card-link {
+.portfolioWorkCardLink {
   text-decoration: none;
   padding: 10px;
   display: flex;
@@ -25,12 +25,17 @@
   gap: 10px;
 }
 
-._customer-portfolio-work-card-title {
+.portfolioWorkCardTitle {
   font: 600 18px / 24px "Montserrat", sans-serif;
   text-align: center;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
 }
 
-._customer-portfolio-work-card-preview {
+.portfolioWorkCardPreview {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,37 +54,32 @@
   }
 }
 
-._customer-portfolio-work-card-skills {
+.portfolioWorkCardSkills {
   font: 400 16px / 24px "Montserrat", sans-serif;
   text-transform: uppercase;
   text-align: center;
 }
 
-@media screen and (max-width:960px) {
-  ._customer-portfolio__works {
+@media screen and (max-width:978px) {
+  .portfolioWorks {
     gap: 10px;
   }
 
-  ._customer-portfolio-work-card-title,
-  ._customer-portfolio-work-card-skills {
+  .portfolioWorkCardTitle,
+  .portfolioWorkCardSkills {
     font-size: 12px;
-    line-height: 20px;
-    display: -webkit-box;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
+    line-height: 1.5;
   }
 }
 
 @media screen and (max-width:640px) {
-  ._customer-portfolio__works {
+  .portfolioWorks {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (max-width:390px) {
-  ._customer-portfolio__works {
+  .portfolioWorks {
     grid-template-columns: 1fr;
   }
 }
