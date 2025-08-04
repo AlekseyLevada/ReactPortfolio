@@ -1,6 +1,5 @@
 import styles from './styles/mainContent.module.scss'
 import { IntroText } from '../IntroText/IntroText'
-import { AppBtn } from '../AppBtn/AppBtn'
 
 export const MainContent = () => {
   return (
@@ -21,7 +20,6 @@ export const MainContent = () => {
         </video>
       </div>
       <IntroText />
-      <AppBtn className={styles.appBtn} link="/about" text="Вперед" />
     </section>
   )
 }
