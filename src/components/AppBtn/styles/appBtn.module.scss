@@ -2,20 +2,19 @@
   border: none;
   outline: none;
   width: 130px;
-  height: 50px;
+  height: 40px;
   color: #fff;
-  border-radius: 5px;
+  border-radius: 3px;
   font: 600 16px/24px "Montserrat", sans-serif;
   text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: .2s ease-in-out;
-  box-shadow: 1px 3px 4px #221f1f;
-  background: rgb(117, 78, 249);
+  background: #754ef9;
 
   &:hover {
-    box-shadow: none;
+    opacity: .8;
     transition: .2s ease-in-out;
   }
 }

@@ -77,14 +77,14 @@ export const AboutPage = () => {
         <li>Ответственность – соблюдение дедлайнов, качество кода</li>
       </List>
       <Subtitle>Опыт работы</Subtitle>
-      <Suptitle>ОАО "Силур" | Август 2008 — Май 2022</Suptitle>
+      <Suptitle><i> ОАО "Силур" | Август 2008 — Май 2022</i></Suptitle>
       <Minortitle>Начальник производственного участка</Minortitle>
       <List>
         <li>Управление командой, контроль качества и безопасности</li>
         <li>Оптимизация процессов, выполнение плановых показателей</li>
         <li>Повышение до зам. начальника цеха</li>
       </List>
-      <Suptitle>Веб-студия CodeIT | Сентябрь 2016 — Июнь 2018</Suptitle>
+      <Suptitle><i>Веб-студия CodeIT | Сентябрь 2016 — Июнь 2018</i></Suptitle>
       <Minortitle>Frontend-разработчик (Junior) / Верстальщик</Minortitle>
       <Minortitle>Основные задачи:</Minortitle>
       <List>
@@ -93,7 +93,7 @@ export const AboutPage = () => {
         <li>Интеграция с CMS и фреймворками</li>
         <li>Оптимизация скорости загрузки (улучшение на 25%)</li>
       </List>
-      <Suptitle>Пульс Цен | Март 2021 — Август 2025 (4+ года)</Suptitle>
+      <Suptitle><i>Пульс Цен | Июнь 2022 — Август 2025</i></Suptitle>
       <Minortitle>Frontend-разработчик</Minortitle>
       <Minortitle>React/Vue, TypeScript, Redux/Zustand, Node.js, Nest.js, БЭМ, SCSS модули</Minortitle>
       <Minortitle>Основные задачи:</Minortitle>
@@ -117,7 +117,7 @@ export const AboutPage = () => {
       </div>
       <div className={styles.appBtns}>
         <AppBtn className={styles.appBtn} link="/" text="Назад" />
-        <AppBtn className={styles.appBtn} link="/portfolio" text="Далее" />
+        {/* <AppBtn className={styles.appBtn} link="/portfolio" text="Далее" /> */}
       </div>
     </Page>
   )
