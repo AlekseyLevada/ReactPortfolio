@@ -77,7 +77,7 @@ export const AboutPage = () => {
         <li>Ответственность – соблюдение дедлайнов, качество кода</li>
       </List>
       <Subtitle>Опыт работы</Subtitle>
-      <Suptitle><i>Веб-студия CodeIT | Сентябрь 2015 — Июнь 2018</i></Suptitle>
+      <Suptitle><i>Веб-студия CodeIT | Май 2015 — Июнь 2018</i></Suptitle>
       <Minortitle>Frontend-разработчик (Junior) / Верстальщик</Minortitle>
       <Minortitle>Основные задачи:</Minortitle>
       <List>
