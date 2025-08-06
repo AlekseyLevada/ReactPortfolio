@@ -25,7 +25,6 @@ const downloadFile = (url) => {
 }
 
 export const AboutPage = () => {
-
   return (
     <Page>
       <Navbar />
