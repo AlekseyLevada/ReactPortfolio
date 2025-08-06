@@ -77,14 +77,7 @@ export const AboutPage = () => {
         <li>Ответственность – соблюдение дедлайнов, качество кода</li>
       </List>
       <Subtitle>Опыт работы</Subtitle>
-      <Suptitle><i> ОАО "Силур" | Август 2008 — Май 2022</i></Suptitle>
-      <Minortitle>Начальник производственного участка</Minortitle>
-      <List>
-        <li>Управление командой, контроль качества и безопасности</li>
-        <li>Оптимизация процессов, выполнение плановых показателей</li>
-        <li>Повышение до зам. начальника цеха</li>
-      </List>
-      <Suptitle><i>Веб-студия CodeIT | Сентябрь 2016 — Июнь 2018</i></Suptitle>
+      <Suptitle><i>Веб-студия CodeIT | Сентябрь 2015 — Июнь 2018</i></Suptitle>
       <Minortitle>Frontend-разработчик (Junior) / Верстальщик</Minortitle>
       <Minortitle>Основные задачи:</Minortitle>
       <List>
@@ -94,7 +87,7 @@ export const AboutPage = () => {
         <li>Оптимизация скорости загрузки (улучшение на 25%)</li>
       </List>
       <Suptitle><i>Пульс Цен | Июнь 2022 — Август 2025</i></Suptitle>
-      <Minortitle>Frontend-разработчик</Minortitle>
+      <Minortitle>Frontend-разработчик (Middle) </Minortitle>
       <Minortitle>React/Vue, TypeScript, Redux/Zustand, Node.js, Nest.js, БЭМ, SCSS модули</Minortitle>
       <Minortitle>Основные задачи:</Minortitle>
       <List>
