@@ -12,7 +12,16 @@ import { Minortitle } from '../../components/Minortitle/Minortitle.jsx'
 import { List } from '../../components/List/List.jsx'
 import myCvImg from '../../img/pdf.png'
 
-const cvUrl = "my_cv.pdf"
+const cvUrls = [
+  {
+    name: "HABR",
+    cv: "my_cv_1.pdf",
+  },
+  {
+    name: "HH",
+    cv: "my_cv_2.pdf"
+  }
+]
 
 const downloadFile = (url) => {
   const fileName = url.split("my_cv").pop()
@@ -118,8 +127,19 @@ export const AboutPage = () => {
         <li>Автоматизировал процессы деплоя продукции из загруженных клиентом файлов XLS, XML</li>
       </List>
       <Subtitle>Резюме</Subtitle>
-      <div className={styles.resumeFile}>
-        <Link onClick={() => { downloadFile(cvUrl) }} Link><img src={myCvImg} loading='lazy' title="Резюме" alt="Резюме" width="100" height="100" /></Link>
+      <div className={styles.resumeFiles} data-aos="fade-up" data-aos-delay="400">
+        {
+          cvUrls.map(cvUrl => {
+            return (
+              <div key={cvUrl.cv} className={styles.resumeFile}>
+                <Link onClick={() => { downloadFile(cvUrl.cv) }}>
+                  <img src={myCvImg} loading='lazy' title={cvUrl.name} alt={cvUrl.name} width="100" height="100" />
+                  <span>{cvUrl.name}</span>
+                </Link>
+              </div>
+            )
+          })
+        }
       </div>
       <div className={styles.appBtns}>
         <AppBtn className={styles.appBtn} link="/" text="Назад" />
