@@ -53,7 +53,7 @@ export const AboutPage = () => {
         {
           skills_list.map(skill => {
             return (
-              <li className={styles.skillGridItem} key={skill.id + skill.name}>
+              <li className={styles.skillGridItem} key={skill.id + skill.name} data-aos="fade-up" data-aos-delay="100">
                 <Link to={skill.link}>
                   <p>
                     {skill.name}
