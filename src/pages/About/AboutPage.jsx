@@ -33,6 +33,10 @@ const downloadFile = (url) => {
   aTag.remove()
 }
 
+let birthYear = 1988
+let currentYear = new Date().getFullYear()
+let age = currentYear - birthYear
+
 export const AboutPage = () => {
   return (
     <Page>
@@ -41,7 +45,7 @@ export const AboutPage = () => {
       <Title>Привет, давай&nbsp;знакомиться!</Title>
       <Subtitle>Левада Алексей</Subtitle>
       <List>
-        <li>Frontend-разработчик, Москва, 35 лет</li>
+        <li>Frontend-разработчик, Москва, мне {age}</li>
         <li>2014 год. - первый "Hello World"</li>
         <li>С 2015 года погружен в веб-разработку. Обожаю Frontend за мгновенную визуальную отдачу — когда код превращается в живой интерфейс</li>
       </List>
